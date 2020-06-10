@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.007043] (reflexxes) JobQueued: {'identifier': 'reflexxes', 'dependencies': OrderedDict()}
+[0.007459] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict([('reflexxes', '/home/ctrobot/dev_ws_de0/install/reflexxes')])}
+[0.007768] (reflexxes) JobStarted: {'identifier': 'reflexxes'}
+[0.098398] (-) TimerEvent: {}
+[0.115206] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'cmake'}
+[0.121084] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'build'}
+[0.127854] (reflexxes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/reflexxes', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/reflexxes', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/reflexxes'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[0.198760] (-) TimerEvent: {}
+[0.300390] (-) TimerEvent: {}
+[0.401763] (-) TimerEvent: {}
+[0.503078] (-) TimerEvent: {}
+[0.604280] (-) TimerEvent: {}
+[0.705505] (-) TimerEvent: {}
+[0.804600] (reflexxes) StdoutLine: {'line': b'[100%] Built target reflexxes\n'}
+[0.806896] (-) TimerEvent: {}
+[0.908044] (-) TimerEvent: {}
+[0.930815] (reflexxes) CommandEnded: {'returncode': 0}
+[1.008586] (-) TimerEvent: {}
+[1.110324] (-) TimerEvent: {}
+[1.211677] (-) TimerEvent: {}
+[1.313398] (-) TimerEvent: {}
+[1.414669] (-) TimerEvent: {}
+[1.515981] (-) TimerEvent: {}
+[1.617307] (-) TimerEvent: {}
+[1.719139] (-) TimerEvent: {}
+[1.723220] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'install'}
+[1.819745] (-) TimerEvent: {}
+[1.837525] (reflexxes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/reflexxes', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/reflexxes', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/reflexxes'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[1.920043] (-) TimerEvent: {}
+[2.021460] (-) TimerEvent: {}
+[2.123036] (-) TimerEvent: {}
+[2.224258] (-) TimerEvent: {}
+[2.325574] (-) TimerEvent: {}
+[2.426760] (-) TimerEvent: {}
+[2.478214] (reflexxes) StdoutLine: {'line': b'[100%] Built target reflexxes\n'}
+[2.527064] (-) TimerEvent: {}
+[2.628305] (-) TimerEvent: {}
+[2.699397] (reflexxes) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.728641] (-) TimerEvent: {}
+[2.800302] (reflexxes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.802629] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/library_path.sh\n'}
+[2.805740] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/lib/libreflexxes.a\n'}
+[2.808632] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include/\n'}
+[2.810648] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLPosition.h\n'}
+[2.812637] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityOutputParameters.h\n'}
+[2.814672] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//ReflexxesAPI.h\n'}
+[2.816733] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2Profiles.h\n'}
+[2.818893] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionInputParameters.h\n'}
+[2.820394] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionOutputParameters.h\n'}
+[2.821745] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLPolynomial.h\n'}
+[2.823386] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLFlags.h\n'}
+[2.824774] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLVelocity.h\n'}
+[2.825921] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionFlags.h\n'}
+[2.826988] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2WithoutSynchronization.h\n'}
+[2.828057] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree2.h\n'}
+[2.829051] (-) TimerEvent: {}
+[2.830298] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep1Profiles.h\n'}
+[2.840495] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityInputParameters.h\n'}
+[2.841802] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1A.h\n'}
+[2.843627] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisions.h\n'}
+[2.848110] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLOutputParameters.h\n'}
+[2.854378] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLMath.h\n'}
+[2.855994] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLInputParameters.h\n'}
+[2.857701] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep1IntermediateProfiles.h\n'}
+[2.859233] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVector.h\n'}
+[2.860500] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1B.h\n'}
+[2.861758] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2IntermediateProfiles.h\n'}
+[2.863727] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1C.h\n'}
+[2.864940] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLQuicksort.h\n'}
+[2.866463] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityFlags.h\n'}
+[2.869543] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/package_run_dependencies/reflexxes\n'}
+[2.871137] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/parent_prefix_path/reflexxes\n'}
+[2.872657] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/ament_prefix_path.sh\n'}
+[2.874128] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/path.sh\n'}
+[2.875760] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.bash\n'}
+[2.877078] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.sh\n'}
+[2.878465] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.zsh\n'}
+[2.879976] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/packages/reflexxes\n'}
+[2.881513] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.884118] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.885826] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/reflexxesConfig.cmake\n'}
+[2.888033] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/reflexxesConfig-version.cmake\n'}
+[2.889477] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/package.xml\n'}
+[2.894668] (reflexxes) CommandEnded: {'returncode': 0}
+[2.929336] (-) TimerEvent: {}
+[3.008250] (reflexxes) JobEnded: {'identifier': 'reflexxes', 'rc': 0}
+[3.045547] (-) TimerEvent: {}
+[3.048014] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[3.098799] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'cmake'}
+[3.105527] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'build'}
+[3.108624] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/motor_controller', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/motor_controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/motor_controller'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[3.145983] (-) TimerEvent: {}
+[3.247453] (-) TimerEvent: {}
+[3.348800] (-) TimerEvent: {}
+[3.450090] (-) TimerEvent: {}
+[3.551327] (-) TimerEvent: {}
+[3.605566] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller\x1b[0m\n'}
+[3.651586] (-) TimerEvent: {}
+[3.752991] (-) TimerEvent: {}
+[3.854246] (-) TimerEvent: {}
+[3.938642] (motor_controller) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/motor_controller.dir/include/ini/ini.c.o\x1b[0m\n'}
+[3.940753] (motor_controller) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller.dir/src/motor_controller.cpp.o\x1b[0m\n'}
+[3.954511] (-) TimerEvent: {}
+[4.055783] (-) TimerEvent: {}
+[4.157096] (-) TimerEvent: {}
+[4.258488] (-) TimerEvent: {}
+[4.359814] (-) TimerEvent: {}
+[4.461129] (-) TimerEvent: {}
+[4.505601] (motor_controller) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller.dir/include/ini/INIReader.cpp.o\x1b[0m\n'}
+[4.561465] (-) TimerEvent: {}
+[4.662873] (-) TimerEvent: {}
+[4.764362] (-) TimerEvent: {}
+[4.865656] (-) TimerEvent: {}
+[4.966924] (-) TimerEvent: {}
+[5.068202] (-) TimerEvent: {}
+[5.169498] (-) TimerEvent: {}
+[5.270814] (-) TimerEvent: {}
+[5.372159] (-) TimerEvent: {}
+[5.394731] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/JointState.h: No such file or directory\n'}
+[5.396352] (motor_controller) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"sensor_msgs/JointState.h"\x1b[m\x1b[K\n'}
+[5.397472] (motor_controller) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.398868] (motor_controller) StderrLine: {'line': b'compilation terminated.\n'}
+[5.424794] (motor_controller) StdoutLine: {'line': b"CMakeFiles/motor_controller.dir/build.make:62: recipe for target 'CMakeFiles/motor_controller.dir/src/motor_controller.cpp.o' failed\n"}
+[5.426263] (motor_controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/motor_controller.dir/src/motor_controller.cpp.o] Error 1\n'}
+[5.427269] (motor_controller) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[5.472428] (-) TimerEvent: {}
+[5.573626] (-) TimerEvent: {}
+[5.674821] (-) TimerEvent: {}
+[5.776015] (-) TimerEvent: {}
+[5.877226] (-) TimerEvent: {}
+[5.978519] (-) TimerEvent: {}
+[6.080495] (-) TimerEvent: {}
+[6.182383] (-) TimerEvent: {}
+[6.284297] (-) TimerEvent: {}
+[6.386159] (-) TimerEvent: {}
+[6.487970] (-) TimerEvent: {}
+[6.589903] (-) TimerEvent: {}
+[6.691720] (-) TimerEvent: {}
+[6.793736] (-) TimerEvent: {}
+[6.895631] (-) TimerEvent: {}
+[6.997398] (-) TimerEvent: {}
+[7.099217] (-) TimerEvent: {}
+[7.201023] (-) TimerEvent: {}
+[7.302933] (-) TimerEvent: {}
+[7.404838] (-) TimerEvent: {}
+[7.506795] (-) TimerEvent: {}
+[7.608666] (-) TimerEvent: {}
+[7.710583] (-) TimerEvent: {}
+[7.811832] (-) TimerEvent: {}
+[7.849226] (motor_controller) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/motor_controller.dir/all' failed\n"}
+[7.850817] (motor_controller) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[7.852271] (motor_controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/motor_controller.dir/all] Error 2\n'}
+[7.853492] (motor_controller) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[7.862551] (motor_controller) CommandEnded: {'returncode': 2}
+[7.866142] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 2}
+[7.880069] (-) EventReactorShutdown: {}

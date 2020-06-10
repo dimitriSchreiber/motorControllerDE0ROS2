@@ -1,0 +1,1057 @@
+[0.000000] (-) TimerEvent: {}
+[0.003493] (reflexxes) JobQueued: {'identifier': 'reflexxes', 'dependencies': OrderedDict()}
+[0.006799] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict([('reflexxes', '/home/ctrobot/dev_ws_de0/install/reflexxes')])}
+[0.007283] (reflexxes) JobStarted: {'identifier': 'reflexxes'}
+[0.098186] (-) TimerEvent: {}
+[0.115613] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'cmake'}
+[0.121708] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'build'}
+[0.128499] (reflexxes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/reflexxes', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/reflexxes', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/reflexxes'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[0.198528] (-) TimerEvent: {}
+[0.300152] (-) TimerEvent: {}
+[0.401382] (-) TimerEvent: {}
+[0.502734] (-) TimerEvent: {}
+[0.604035] (-) TimerEvent: {}
+[0.705290] (-) TimerEvent: {}
+[0.786283] (reflexxes) StdoutLine: {'line': b'[100%] Built target reflexxes\n'}
+[0.805627] (-) TimerEvent: {}
+[0.907497] (-) TimerEvent: {}
+[0.917391] (reflexxes) CommandEnded: {'returncode': 0}
+[1.008167] (-) TimerEvent: {}
+[1.110065] (-) TimerEvent: {}
+[1.212013] (-) TimerEvent: {}
+[1.313223] (-) TimerEvent: {}
+[1.414698] (-) TimerEvent: {}
+[1.516531] (-) TimerEvent: {}
+[1.617738] (-) TimerEvent: {}
+[1.719181] (-) TimerEvent: {}
+[1.762302] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'install'}
+[1.819824] (-) TimerEvent: {}
+[1.880591] (reflexxes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/reflexxes', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/reflexxes', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/reflexxes'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[1.920110] (-) TimerEvent: {}
+[2.021732] (-) TimerEvent: {}
+[2.122961] (-) TimerEvent: {}
+[2.224227] (-) TimerEvent: {}
+[2.325503] (-) TimerEvent: {}
+[2.426730] (-) TimerEvent: {}
+[2.528081] (-) TimerEvent: {}
+[2.534648] (reflexxes) StdoutLine: {'line': b'[100%] Built target reflexxes\n'}
+[2.628416] (-) TimerEvent: {}
+[2.729793] (-) TimerEvent: {}
+[2.757068] (reflexxes) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.830092] (-) TimerEvent: {}
+[2.861997] (reflexxes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.864580] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/library_path.sh\n'}
+[2.866696] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/lib/libreflexxes.a\n'}
+[2.868874] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include/\n'}
+[2.870906] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLPosition.h\n'}
+[2.872568] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityOutputParameters.h\n'}
+[2.874203] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//ReflexxesAPI.h\n'}
+[2.875782] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2Profiles.h\n'}
+[2.877740] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionInputParameters.h\n'}
+[2.879558] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionOutputParameters.h\n'}
+[2.881380] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLPolynomial.h\n'}
+[2.883088] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLFlags.h\n'}
+[2.884780] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLVelocity.h\n'}
+[2.886436] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionFlags.h\n'}
+[2.887977] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2WithoutSynchronization.h\n'}
+[2.889678] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree2.h\n'}
+[2.891154] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep1Profiles.h\n'}
+[2.892664] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityInputParameters.h\n'}
+[2.894213] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1A.h\n'}
+[2.895668] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisions.h\n'}
+[2.897305] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLOutputParameters.h\n'}
+[2.898973] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLMath.h\n'}
+[2.900330] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLInputParameters.h\n'}
+[2.901769] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep1IntermediateProfiles.h\n'}
+[2.903052] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVector.h\n'}
+[2.904420] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1B.h\n'}
+[2.905549] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2IntermediateProfiles.h\n'}
+[2.906637] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1C.h\n'}
+[2.907706] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLQuicksort.h\n'}
+[2.909062] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityFlags.h\n'}
+[2.910313] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/package_run_dependencies/reflexxes\n'}
+[2.919289] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/parent_prefix_path/reflexxes\n'}
+[2.920356] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/ament_prefix_path.sh\n'}
+[2.921339] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/path.sh\n'}
+[2.922392] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.bash\n'}
+[2.923362] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.sh\n'}
+[2.924312] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.zsh\n'}
+[2.925247] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/packages/reflexxes\n'}
+[2.926184] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.927121] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.930037] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/reflexxesConfig.cmake\n'}
+[2.931351] (-) TimerEvent: {}
+[2.933200] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/reflexxesConfig-version.cmake\n'}
+[2.935656] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/package.xml\n'}
+[2.953619] (reflexxes) CommandEnded: {'returncode': 0}
+[3.035585] (-) TimerEvent: {}
+[3.079005] (reflexxes) JobEnded: {'identifier': 'reflexxes', 'rc': 0}
+[3.117163] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[3.136261] (-) TimerEvent: {}
+[3.170392] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'cmake'}
+[3.176816] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'build'}
+[3.180132] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/motor_controller', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/motor_controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/motor_controller'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[3.236533] (-) TimerEvent: {}
+[3.338095] (-) TimerEvent: {}
+[3.439290] (-) TimerEvent: {}
+[3.540500] (-) TimerEvent: {}
+[3.641741] (-) TimerEvent: {}
+[3.697169] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller\x1b[0m\n'}
+[3.742006] (-) TimerEvent: {}
+[3.843656] (-) TimerEvent: {}
+[3.945318] (-) TimerEvent: {}
+[4.030051] (motor_controller) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller.dir/include/motorControlThread.cpp.o\x1b[0m\n'}
+[4.045652] (-) TimerEvent: {}
+[4.146954] (-) TimerEvent: {}
+[4.248294] (-) TimerEvent: {}
+[4.349500] (-) TimerEvent: {}
+[4.450719] (-) TimerEvent: {}
+[4.551960] (-) TimerEvent: {}
+[4.653191] (-) TimerEvent: {}
+[4.754562] (-) TimerEvent: {}
+[4.855829] (-) TimerEvent: {}
+[4.957105] (-) TimerEvent: {}
+[5.058455] (-) TimerEvent: {}
+[5.159730] (-) TimerEvent: {}
+[5.261025] (-) TimerEvent: {}
+[5.362355] (-) TimerEvent: {}
+[5.463694] (-) TimerEvent: {}
+[5.565092] (-) TimerEvent: {}
+[5.666459] (-) TimerEvent: {}
+[5.767915] (-) TimerEvent: {}
+[5.869241] (-) TimerEvent: {}
+[5.970571] (-) TimerEvent: {}
+[6.071984] (-) TimerEvent: {}
+[6.173257] (-) TimerEvent: {}
+[6.274500] (-) TimerEvent: {}
+[6.375744] (-) TimerEvent: {}
+[6.476989] (-) TimerEvent: {}
+[6.578276] (-) TimerEvent: {}
+[6.679497] (-) TimerEvent: {}
+[6.780719] (-) TimerEvent: {}
+[6.881965] (-) TimerEvent: {}
+[6.983220] (-) TimerEvent: {}
+[7.084464] (-) TimerEvent: {}
+[7.185700] (-) TimerEvent: {}
+[7.286951] (-) TimerEvent: {}
+[7.388217] (-) TimerEvent: {}
+[7.489443] (-) TimerEvent: {}
+[7.590701] (-) TimerEvent: {}
+[7.691981] (-) TimerEvent: {}
+[7.793223] (-) TimerEvent: {}
+[7.894455] (-) TimerEvent: {}
+[7.995700] (-) TimerEvent: {}
+[8.096942] (-) TimerEvent: {}
+[8.198240] (-) TimerEvent: {}
+[8.299471] (-) TimerEvent: {}
+[8.400703] (-) TimerEvent: {}
+[8.501949] (-) TimerEvent: {}
+[8.603191] (-) TimerEvent: {}
+[8.704457] (-) TimerEvent: {}
+[8.752046] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:20:0\x1b[m\x1b[K,\n'}
+[8.753731] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32\x1b[m\x1b[K,\n'}
+[8.755060] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[8.756393] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CTRobot::fpgaCommunication::writeByte(uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.757743] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:48:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.760124] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.762326] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.763593] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CTRobot::fpgaCommunication::writeTwoBytes(uint16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.764903] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:51:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.766101] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.767245] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.768614] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CTRobot::fpgaCommunication::writeTwoWords(uint64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.769879] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:57:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.771165] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.772461] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.773793] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:21:0\x1b[m\x1b[K,\n'}
+[8.775165] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32\x1b[m\x1b[K,\n'}
+[8.776409] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[8.777699] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaEncoder.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CTRobot::fpgaEncoder::reset()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.779256] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaEncoder.h:71:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K+\x1b[m\x1b[K\xe2\x80\x99 inside \xe2\x80\x98\x1b[01m\x1b[K<<\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[8.780583] (motor_controller) StderrLine: {'line': b'             temp = temp | (1<<\x1b[01;35m\x1b[KencoderIndex + 8\x1b[m\x1b[K);\n'}
+[8.781930] (motor_controller) StderrLine: {'line': b'                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.804758] (-) TimerEvent: {}
+[8.906571] (-) TimerEvent: {}
+[9.008400] (-) TimerEvent: {}
+[9.110162] (-) TimerEvent: {}
+[9.211931] (-) TimerEvent: {}
+[9.313239] (-) TimerEvent: {}
+[9.325117] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:22:0\x1b[m\x1b[K,\n'}
+[9.326621] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32\x1b[m\x1b[K,\n'}
+[9.328131] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[9.329602] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCTRobot::AS5048b::AS5048b(uint8_t, int16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.330989] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:71:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCTRobot::AS5048b::LSB\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.332356] (motor_controller) StderrLine: {'line': b'         uint8_t \x1b[01;35m\x1b[KLSB\x1b[m\x1b[K;\n'}
+[9.333750] (motor_controller) StderrLine: {'line': b'                 \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.334968] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:69:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble CTRobot::AS5048b::currentAngle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.336222] (motor_controller) StderrLine: {'line': b'         double \x1b[01;35m\x1b[KcurrentAngle\x1b[m\x1b[K;\n'}
+[9.337469] (motor_controller) StderrLine: {'line': b'                \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.338976] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.340378] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[KAS5048b\x1b[m\x1b[K(uint8_t anAddress, int16_t aOffset = 0): I2CSlaveDevice(anAddress), offset(aOffset),MSB(0),LSB(0),currentAngle(0),\n'}
+[9.341780] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.343212] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:69:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCTRobot::AS5048b::currentAngle\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.344637] (motor_controller) StderrLine: {'line': b'         double \x1b[01;35m\x1b[KcurrentAngle\x1b[m\x1b[K;\n'}
+[9.345924] (motor_controller) StderrLine: {'line': b'                \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.347160] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:67:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kuint16_t CTRobot::AS5048b::currentAngleR\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.348650] (motor_controller) StderrLine: {'line': b'         uint16_t \x1b[01;35m\x1b[KcurrentAngleR\x1b[m\x1b[K;\n'}
+[9.349970] (motor_controller) StderrLine: {'line': b'                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.351267] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.352558] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[KAS5048b\x1b[m\x1b[K(uint8_t anAddress, int16_t aOffset = 0): I2CSlaveDevice(anAddress), offset(aOffset),MSB(0),LSB(0),currentAngle(0),\n'}
+[9.353864] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.413521] (-) TimerEvent: {}
+[9.515329] (-) TimerEvent: {}
+[9.629371] (-) TimerEvent: {}
+[9.731169] (-) TimerEvent: {}
+[9.832929] (-) TimerEvent: {}
+[9.934710] (-) TimerEvent: {}
+[10.036525] (-) TimerEvent: {}
+[10.138430] (-) TimerEvent: {}
+[10.240217] (-) TimerEvent: {}
+[10.342023] (-) TimerEvent: {}
+[10.443816] (-) TimerEvent: {}
+[10.545561] (-) TimerEvent: {}
+[10.647342] (-) TimerEvent: {}
+[10.749265] (-) TimerEvent: {}
+[10.850633] (-) TimerEvent: {}
+[10.952304] (-) TimerEvent: {}
+[11.054120] (-) TimerEvent: {}
+[11.155876] (-) TimerEvent: {}
+[11.257666] (-) TimerEvent: {}
+[11.359538] (-) TimerEvent: {}
+[11.461285] (-) TimerEvent: {}
+[11.563061] (-) TimerEvent: {}
+[11.664820] (-) TimerEvent: {}
+[11.766647] (-) TimerEvent: {}
+[11.868537] (-) TimerEvent: {}
+[11.959065] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32:0\x1b[m\x1b[K,\n'}
+[11.960634] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[11.961897] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCTRobot::motorController::motorController(unsigned char*, unsigned char*, unsigned char*, uint32_t, std::__cxx11::string, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.963184] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:152:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCTRobot::motorController::motorIndex\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.964398] (motor_controller) StderrLine: {'line': b'         uint32_t \x1b[01;35m\x1b[KmotorIndex\x1b[m\x1b[K;\n'}
+[11.965570] (motor_controller) StderrLine: {'line': b'                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.966870] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:148:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KCTRobot::fpgaCommunication CTRobot::motorController::motorEnable\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.968444] (motor_controller) StderrLine: {'line': b'         fpgaCommunication \x1b[01;35m\x1b[KmotorEnable\x1b[m\x1b[K;\n'}
+[11.969633] (-) TimerEvent: {}
+[11.971066] (motor_controller) StderrLine: {'line': b'                           \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.972937] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32:0\x1b[m\x1b[K,\n'}
+[11.974246] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[11.975511] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:34:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.976765] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[KmotorController\x1b[m\x1b[K(unsigned char* PWMAddress, unsigned char* dirAddress, unsigned char* ADCAddr, uint32_t anIndex, std::string aMotorAddress, double dtSet, double cutoffFrequencyLPVelocity)\n'}
+[11.978488] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.979857] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32:0\x1b[m\x1b[K,\n'}
+[11.981097] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[11.982263] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:171:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCTRobot::motorController::wc\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.983593] (motor_controller) StderrLine: {'line': b'                 \x1b[01;35m\x1b[Kwc\x1b[m\x1b[K;\n'}
+[11.984816] (motor_controller) StderrLine: {'line': b'                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.986007] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:156:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ku_int8_t CTRobot::motorController::previousHB\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.987328] (motor_controller) StderrLine: {'line': b'         u_int8_t \x1b[01;35m\x1b[KpreviousHB\x1b[m\x1b[K;\n'}
+[11.988763] (motor_controller) StderrLine: {'line': b'                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.990004] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32:0\x1b[m\x1b[K,\n'}
+[11.991275] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[11.992504] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:34:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.993707] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[KmotorController\x1b[m\x1b[K(unsigned char* PWMAddress, unsigned char* dirAddress, unsigned char* ADCAddr, uint32_t anIndex, std::string aMotorAddress, double dtSet, double cutoffFrequencyLPVelocity)\n'}
+[11.994874] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.069962] (-) TimerEvent: {}
+[12.171663] (-) TimerEvent: {}
+[12.273509] (-) TimerEvent: {}
+[12.374833] (-) TimerEvent: {}
+[12.399218] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8:0\x1b[m\x1b[K:\n'}
+[12.400810] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KmotorControlThread::motorControlThread(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.402083] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:132:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmotorControlThread::shouldStop\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.403308] (motor_controller) StderrLine: {'line': b'     bool \x1b[01;35m\x1b[KshouldStop\x1b[m\x1b[K;\n'}
+[12.404516] (motor_controller) StderrLine: {'line': b'\n'}
+[12.405785] (motor_controller) StderrLine: {'line': b'          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.407007] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:130:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool motorControlThread::setup\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.408433] (motor_controller) StderrLine: {'line': b'     bool \x1b[01;35m\x1b[Ksetup\x1b[m\x1b[K;\n'}
+[12.409761] (motor_controller) StderrLine: {'line': b'\n'}
+[12.411067] (motor_controller) StderrLine: {'line': b'          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.412328] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:44:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.413567] (motor_controller) StderrLine: {'line': b'     \x1b[01;35m\x1b[KmotorControlThread\x1b[m\x1b[K(int aFrequency = 500):frequency(aFrequency),shouldStop(false)\n'}
+[12.414775] (motor_controller) StderrLine: {'line': b'\n'}
+[12.416020] (motor_controller) StderrLine: {'line': b'     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.440848] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KmotorControlThread& motorControlThread::motorAddressSetup()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.442366] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:52:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kreset_mask\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.443701] (motor_controller) StderrLine: {'line': b'     uint32_t \x1b[01;35m\x1b[Kreset_mask\x1b[m\x1b[K = 255 | 255<<20;\n'}
+[12.445000] (motor_controller) StderrLine: {'line': b'\n'}
+[12.446271] (motor_controller) StderrLine: {'line': b'              \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.475126] (-) TimerEvent: {}
+[12.576999] (-) TimerEvent: {}
+[12.678985] (-) TimerEvent: {}
+[12.780889] (-) TimerEvent: {}
+[12.882706] (-) TimerEvent: {}
+[12.984540] (-) TimerEvent: {}
+[13.086425] (-) TimerEvent: {}
+[13.188379] (-) TimerEvent: {}
+[13.290283] (-) TimerEvent: {}
+[13.392140] (-) TimerEvent: {}
+[13.494002] (-) TimerEvent: {}
+[13.595844] (-) TimerEvent: {}
+[13.697681] (-) TimerEvent: {}
+[13.799602] (-) TimerEvent: {}
+[13.900936] (-) TimerEvent: {}
+[14.002843] (-) TimerEvent: {}
+[14.104757] (-) TimerEvent: {}
+[14.206638] (-) TimerEvent: {}
+[14.308610] (-) TimerEvent: {}
+[14.410430] (-) TimerEvent: {}
+[14.512325] (-) TimerEvent: {}
+[14.620889] (-) TimerEvent: {}
+[14.722691] (-) TimerEvent: {}
+[14.824513] (-) TimerEvent: {}
+[14.926388] (-) TimerEvent: {}
+[15.028263] (-) TimerEvent: {}
+[15.130132] (-) TimerEvent: {}
+[15.232005] (-) TimerEvent: {}
+[15.333846] (-) TimerEvent: {}
+[15.435160] (-) TimerEvent: {}
+[15.537127] (-) TimerEvent: {}
+[15.639112] (-) TimerEvent: {}
+[15.740972] (-) TimerEvent: {}
+[15.842872] (-) TimerEvent: {}
+[15.944739] (-) TimerEvent: {}
+[16.046581] (-) TimerEvent: {}
+[16.148526] (-) TimerEvent: {}
+[16.250354] (-) TimerEvent: {}
+[16.352254] (-) TimerEvent: {}
+[16.454144] (-) TimerEvent: {}
+[16.556008] (-) TimerEvent: {}
+[16.658019] (-) TimerEvent: {}
+[16.759898] (-) TimerEvent: {}
+[16.861772] (-) TimerEvent: {}
+[16.963070] (-) TimerEvent: {}
+[17.065246] (-) TimerEvent: {}
+[17.167137] (-) TimerEvent: {}
+[17.269067] (-) TimerEvent: {}
+[17.370778] (-) TimerEvent: {}
+[17.472519] (-) TimerEvent: {}
+[17.574387] (-) TimerEvent: {}
+[17.676234] (-) TimerEvent: {}
+[17.778195] (-) TimerEvent: {}
+[17.880049] (-) TimerEvent: {}
+[17.981898] (-) TimerEvent: {}
+[18.083739] (-) TimerEvent: {}
+[18.185609] (-) TimerEvent: {}
+[18.287439] (-) TimerEvent: {}
+[18.389428] (-) TimerEvent: {}
+[18.490698] (-) TimerEvent: {}
+[18.592009] (-) TimerEvent: {}
+[18.693919] (-) TimerEvent: {}
+[18.795829] (-) TimerEvent: {}
+[18.897697] (-) TimerEvent: {}
+[18.999579] (-) TimerEvent: {}
+[19.101523] (-) TimerEvent: {}
+[19.203366] (-) TimerEvent: {}
+[19.305050] (-) TimerEvent: {}
+[19.406814] (-) TimerEvent: {}
+[19.508700] (-) TimerEvent: {}
+[19.617044] (-) TimerEvent: {}
+[19.718960] (-) TimerEvent: {}
+[19.791261] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[19.792696] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[19.793905] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[19.795075] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {CTRobot::motorController}; _Tp = CTRobot::motorController; _Alloc = std::allocator<CTRobot::motorController>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.796256] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<CTRobot::motorController*, std::vector<CTRobot::motorController> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[19.797517] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[19.799188] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.819243] (-) TimerEvent: {}
+[19.921188] (-) TimerEvent: {}
+[19.984800] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:64:0\x1b[m\x1b[K,\n'}
+[19.986219] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[19.987359] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[19.988828] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:\x1b[m\x1b[K In copy constructor \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.990099] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:331:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[19.991268] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),\x1b[m\x1b[K\n'}
+[19.992496] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.993621] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K          this->_M_impl._M_start,\x1b[m\x1b[K\n'}
+[19.994724] (motor_controller) StderrLine: {'line': b'           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.995806] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K          _M_get_Tp_allocator())\x1b[m\x1b[K;\n'}
+[19.996954] (motor_controller) StderrLine: {'line': b'           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.002429] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[20.004641] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[20.005810] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[20.006952] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.008239] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:206:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.009440] (motor_controller) StderrLine: {'line': b'        pointer \x1b[01;36m\x1b[K__tmp\x1b[m\x1b[K = _M_allocate_and_copy(__xlen, __x.begin(),\n'}
+[20.010598] (motor_controller) StderrLine: {'line': b'                \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[20.011734] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:218:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.012807] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[Kstd::_Destroy(std::copy(__x.begin(), __x.end(), begin()),\x1b[m\x1b[K\n'}
+[20.013932] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.015031] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K       end(), _M_get_Tp_allocator())\x1b[m\x1b[K;\n'}
+[20.016026] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.017093] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:218:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.021430] (-) TimerEvent: {}
+[20.123167] (-) TimerEvent: {}
+[20.224365] (-) TimerEvent: {}
+[20.246565] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:25:0\x1b[m\x1b[K,\n'}
+[20.248789] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32\x1b[m\x1b[K,\n'}
+[20.250312] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[20.252105] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/nlohmann/json.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::json_value::destroy(nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::value_t) [with ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long long int; NumberUnsignedType = long long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.253584] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/nlohmann/json.hpp:15551:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.254819] (motor_controller) StderrLine: {'line': b'                 \x1b[01;36m\x1b[Kstd::move(array->begin(), array->end(), std::back_inserter(stack))\x1b[m\x1b[K;\n'}
+[20.255982] (motor_controller) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.257195] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/nlohmann/json.hpp:15575:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.258579] (motor_controller) StderrLine: {'line': b'                     \x1b[01;36m\x1b[Kstd::move(current_item.m_value.array->begin(), current_item.m_value.array->end(),\x1b[m\x1b[K\n'}
+[20.259705] (motor_controller) StderrLine: {'line': b'                     \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.260783] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K                              std::back_inserter(stack))\x1b[m\x1b[K;\n'}
+[20.261938] (motor_controller) StderrLine: {'line': b'                               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.324666] (-) TimerEvent: {}
+[20.343487] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/map:61:0\x1b[m\x1b[K,\n'}
+[20.344904] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/ini/INIReader.h:15\x1b[m\x1b[K,\n'}
+[20.346060] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:31\x1b[m\x1b[K,\n'}
+[20.347172] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[20.348476] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_map.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](std::map<_Key, _Tp, _Compare, _Alloc>::key_type&&) [with _Key = std::__cxx11::basic_string<char>; _Tp = nlohmann::basic_json<>; _Compare = std::less<void>; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.349723] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_map.h:512:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.351025] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K__i\x1b[m\x1b[K = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,\n'}
+[20.352148] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[20.424972] (-) TimerEvent: {}
+[20.457556] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_map.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::map<_Key, _Tp, _Compare, _Alloc>::mapped_type& std::map<_Key, _Tp, _Compare, _Alloc>::operator[](const key_type&) [with _Key = std::__cxx11::basic_string<char>; _Tp = nlohmann::basic_json<>; _Compare = std::less<void>; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.459126] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_map.h:493:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.460442] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K__i\x1b[m\x1b[K = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,\n'}
+[20.461578] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[20.498705] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[20.500108] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[20.501315] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[20.502567] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {CTRobot::motorController}; _Tp = CTRobot::motorController; _Alloc = std::allocator<CTRobot::motorController>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.503863] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<CTRobot::motorController>::iterator {aka __gnu_cxx::__normal_iterator<CTRobot::motorController*, std::vector<CTRobot::motorController> >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.504985] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[20.506096] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.525258] (-) TimerEvent: {}
+[20.595248] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[20.596859] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[20.598370] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[20.599801] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[20.601156] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*; _Tp = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.602510] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:287:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.603863] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__uninitialized_copy_a\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[20.605151] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.606409] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:287:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.607753] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:289:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.609254] (motor_controller) StderrLine: {'line': b'     { return std::uninitialized_copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K; }\n'}
+[20.610495] (motor_controller) StderrLine: {'line': b'                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[20.616475] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:64:0\x1b[m\x1b[K,\n'}
+[20.617945] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[20.619243] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[20.620446] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::pointer std::vector<_Tp, _Alloc>::_M_allocate_and_copy(std::vector<_Tp, _Alloc>::size_type, _ForwardIterator, _ForwardIterator) [with _ForwardIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.621643] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:1257:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.622802] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K_M_allocate_and_copy\x1b[m\x1b[K(size_type __n,\n'}
+[20.624185] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.625472] (-) TimerEvent: {}
+[20.626956] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:1257:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.628601] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:1263:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.630327] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[Kstd::__uninitialized_copy_a(__first, __last, __result,\x1b[m\x1b[K\n'}
+[20.632961] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.634191] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K       _M_get_Tp_allocator())\x1b[m\x1b[K;\n'}
+[20.635436] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[20.636717] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[20.638094] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[20.639429] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[20.640669] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[20.643447] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _OI = __gnu_cxx::__normal_iterator<double*, std::vector<double> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.644829] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:446:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.646105] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kcopy\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[20.647331] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[20.648735] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:446:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.650078] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:446:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.651377] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:456:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.652687] (motor_controller) StderrLine: {'line': b'         __result)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[20.653989] (motor_controller) StderrLine: {'line': b'                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[20.655316] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:64:0\x1b[m\x1b[K,\n'}
+[20.656513] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[20.657764] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[20.659335] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[20.660693] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = __gnu_cxx::__normal_iterator<double*, std::vector<double> >; _Tp = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.662025] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:203:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.663333] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K_Destroy\x1b[m\x1b[K(_ForwardIterator __first, _ForwardIterator __last,\n'}
+[20.664692] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[20.666008] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:203:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.667269] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:206:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[20.668833] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K_Destroy(__first, __last)\x1b[m\x1b[K;\n'}
+[20.670071] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.725791] (-) TimerEvent: {}
+[20.827716] (-) TimerEvent: {}
+[20.929670] (-) TimerEvent: {}
+[21.031429] (-) TimerEvent: {}
+[21.133130] (-) TimerEvent: {}
+[21.234973] (-) TimerEvent: {}
+[21.336728] (-) TimerEvent: {}
+[21.438704] (-) TimerEvent: {}
+[21.468137] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[21.469640] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[21.470909] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[21.472311] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::reserve(std::vector<_Tp, _Alloc>::size_type) [with _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.473684] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:73:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.474916] (motor_controller) StderrLine: {'line': b'    pointer \x1b[01;36m\x1b[K__tmp\x1b[m\x1b[K = _M_allocate_and_copy(__n,\n'}
+[21.476298] (motor_controller) StderrLine: {'line': b'            \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[21.487181] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[21.488943] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[21.490224] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[21.491432] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[21.492783] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::move(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >; _OI = std::back_insert_iterator<std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.499363] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:479:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.500744] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kmove\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[21.502085] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[21.503369] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:479:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.504715] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:488:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.506083] (motor_controller) StderrLine: {'line': b'            std::__miter_base(__last), __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[21.507362] (motor_controller) StderrLine: {'line': b'                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[21.539022] (-) TimerEvent: {}
+[21.620903] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/map:60:0\x1b[m\x1b[K,\n'}
+[21.622356] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/ini/INIReader.h:15\x1b[m\x1b[K,\n'}
+[21.623530] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:31\x1b[m\x1b[K,\n'}
+[21.624636] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[21.625731] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::iterator std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_emplace_hint_unique(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::const_iterator, _Args&& ...) [with _Args = {const std::piecewise_construct_t&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&>, std::tuple<>}; _Key = std::__cxx11::basic_string<char>; _Val = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; _KeyOfValue = std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >; _Compare = std::less<void>; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.627078] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:2395:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.628695] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>\x1b[m\x1b[K::\n'}
+[21.629928] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.639314] (-) TimerEvent: {}
+[21.741141] (-) TimerEvent: {}
+[21.759953] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::iterator std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_emplace_hint_unique(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::const_iterator, _Args&& ...) [with _Args = {const std::piecewise_construct_t&, std::tuple<const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>, std::tuple<>}; _Key = std::__cxx11::basic_string<char>; _Val = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; _KeyOfValue = std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >; _Compare = std::less<void>; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.761499] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:2395:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.841449] (-) TimerEvent: {}
+[21.882163] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[21.883657] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[21.884947] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[21.886259] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[21.887510] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.889131] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.890506] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kuninitialized_copy\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[21.891804] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.893156] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.894507] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:134:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.895898] (motor_controller) StderrLine: {'line': b'  __uninit_copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[21.897172] (motor_controller) StderrLine: {'line': b'                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[21.902241] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:61:0\x1b[m\x1b[K,\n'}
+[21.903729] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:62\x1b[m\x1b[K,\n'}
+[21.906212] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[21.907512] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[21.908940] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[21.910249] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/cpp_type_traits.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.911420] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/cpp_type_traits.h:408:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.912606] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__miter_base\x1b[m\x1b[K(_Iterator __it)\n'}
+[21.915323] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.916680] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[21.918166] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[21.919563] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[21.920776] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[21.922099] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _OI = __gnu_cxx::__normal_iterator<double*, std::vector<double> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.923312] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.924638] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__copy_move_a2\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[21.925925] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.927181] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.928708] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.930014] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:64:0\x1b[m\x1b[K,\n'}
+[21.931234] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[21.932607] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[21.933953] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[21.935345] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = __gnu_cxx::__normal_iterator<double*, std::vector<double> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.936696] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:127:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.938183] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K_Destroy\x1b[m\x1b[K(_ForwardIterator __first, _ForwardIterator __last)\n'}
+[21.939567] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[21.940937] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:127:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.942205] (-) TimerEvent: {}
+[21.943771] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:137:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[21.945353] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kstd::_Destroy_aux<__has_trivial_destructor(_Value_type)>::\x1b[m\x1b[K\n'}
+[21.946793] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.948224] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K __destroy(__first, __last)\x1b[m\x1b[K;\n'}
+[21.949693] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.042517] (-) TimerEvent: {}
+[22.144360] (-) TimerEvent: {}
+[22.246140] (-) TimerEvent: {}
+[22.348023] (-) TimerEvent: {}
+[22.423003] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:64:0\x1b[m\x1b[K,\n'}
+[22.424412] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[22.425678] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[22.426876] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::pointer std::vector<_Tp, _Alloc>::_M_allocate_and_copy(std::vector<_Tp, _Alloc>::size_type, _ForwardIterator, _ForwardIterator) [with _ForwardIterator = std::move_iterator<nlohmann::basic_json<>*>; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.428215] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:1257:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.429498] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K_M_allocate_and_copy\x1b[m\x1b[K(size_type __n,\n'}
+[22.430808] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.432122] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:1257:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.433412] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:1263:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.434781] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[Kstd::__uninitialized_copy_a(__first, __last, __result,\x1b[m\x1b[K\n'}
+[22.436092] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.437421] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K       _M_get_Tp_allocator())\x1b[m\x1b[K;\n'}
+[22.438899] (motor_controller) StderrLine: {'line': b'        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[22.441333] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:61:0\x1b[m\x1b[K,\n'}
+[22.442776] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:62\x1b[m\x1b[K,\n'}
+[22.445191] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[22.446473] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[22.447651] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[22.449024] (-) TimerEvent: {}
+[22.450697] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/cpp_type_traits.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.452227] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/cpp_type_traits.h:408:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.453525] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__miter_base\x1b[m\x1b[K(_Iterator __it)\n'}
+[22.454792] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.456058] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[22.457281] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[22.458677] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[22.459926] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[22.461270] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = true; _II = __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >; _OI = std::back_insert_iterator<std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.462754] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.464255] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__copy_move_a2\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[22.465666] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.467786] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.469234] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[22.470418] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[22.471587] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[22.472740] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {nlohmann::basic_json<std::map, std::vector, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool, long long int, long long unsigned int, double, std::allocator, nlohmann::adl_serializer>}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.474153] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.475514] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[22.476849] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.549324] (-) TimerEvent: {}
+[22.572920] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/map:60:0\x1b[m\x1b[K,\n'}
+[22.574352] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/ini/INIReader.h:15\x1b[m\x1b[K,\n'}
+[22.575558] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:31\x1b[m\x1b[K,\n'}
+[22.576725] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[22.577915] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*> std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_get_insert_hint_unique_pos(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::const_iterator, const key_type&) [with _Key = std::__cxx11::basic_string<char>; _Val = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; _KeyOfValue = std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >; _Compare = std::less<void>; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.579278] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:2130:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.580461] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>\x1b[m\x1b[K::\n'}
+[22.581597] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.649591] (-) TimerEvent: {}
+[22.751376] (-) TimerEvent: {}
+[22.804676] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[22.806178] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[22.807489] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[22.809015] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[22.810567] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.812037] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:99:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.813360] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K__uninit_copy\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[22.815565] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.816906] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:99:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.818967] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:101:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.820402] (motor_controller) StderrLine: {'line': b'         { return std::copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K; }\n'}
+[22.821721] (motor_controller) StderrLine: {'line': b'                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[22.823016] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:67:0\x1b[m\x1b[K,\n'}
+[22.824269] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:62\x1b[m\x1b[K,\n'}
+[22.826667] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[22.828189] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[22.829649] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[22.831000] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_iterator.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = const double*; _Container = std::vector<double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.832298] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_iterator.h:986:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.833587] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__niter_base\x1b[m\x1b[K(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)\n'}
+[22.834904] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.836160] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_iterator.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = double*; _Container = std::vector<double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.837538] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_iterator.h:986:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.839063] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:64:0\x1b[m\x1b[K,\n'}
+[22.840298] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[22.841411] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[22.842534] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[22.843644] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::_Destroy_aux<true>::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = __gnu_cxx::__normal_iterator<double*, std::vector<double> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.844860] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:117:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.846031] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K__destroy\x1b[m\x1b[K(_ForwardIterator, _ForwardIterator) { }\n'}
+[22.847177] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[22.848578] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_construct.h:117:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[22.851624] (-) TimerEvent: {}
+[22.953400] (-) TimerEvent: {}
+[23.055298] (-) TimerEvent: {}
+[23.156536] (-) TimerEvent: {}
+[23.258107] (-) TimerEvent: {}
+[23.336658] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:25:0\x1b[m\x1b[K,\n'}
+[23.338216] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32\x1b[m\x1b[K,\n'}
+[23.339472] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[23.340588] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/nlohmann/json.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KIteratorType nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer>::erase(IteratorType) [with IteratorType = nlohmann::detail::iter_impl<nlohmann::basic_json<> >; typename std::enable_if<(std::is_same<InputIT, nlohmann::detail::iter_impl<nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer> > >::value || std::is_same<InputIT, nlohmann::detail::iter_impl<const nlohmann::basic_json<ObjectType, ArrayType, StringType, BooleanType, NumberIntegerType, NumberUnsignedType, NumberFloatType, AllocatorType, JSONSerializer> > >::value), int>::type <anonymous> = 0; ObjectType = std::map; ArrayType = std::vector; StringType = std::__cxx11::basic_string<char>; BooleanType = bool; NumberIntegerType = long long int; NumberUnsignedType = long long unsigned int; NumberFloatType = double; AllocatorType = std::allocator; JSONSerializer = nlohmann::adl_serializer]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.341970] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/nlohmann/json.hpp:18280:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::iterator {aka std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[23.343158] (motor_controller) StderrLine: {'line': b'                 \x1b[01;36m\x1b[Kresult\x1b[m\x1b[K.m_it.object_iterator = m_value.object->erase(pos.m_it.object_iterator);\n'}
+[23.344233] (motor_controller) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[23.345272] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/nlohmann/json.hpp:18286:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::const_iterator {aka __gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[23.346458] (motor_controller) StderrLine: {'line': b'                 \x1b[01;36m\x1b[Kresult\x1b[m\x1b[K.m_it.array_iterator = m_value.array->erase(pos.m_it.array_iterator);\n'}
+[23.347634] (motor_controller) StderrLine: {'line': b'                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[23.358105] (-) TimerEvent: {}
+[23.459859] (-) TimerEvent: {}
+[23.561681] (-) TimerEvent: {}
+[23.663526] (-) TimerEvent: {}
+[23.765347] (-) TimerEvent: {}
+[23.867143] (-) TimerEvent: {}
+[23.952192] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[23.953695] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[23.954987] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[23.956318] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[23.957588] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*; _Tp = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.959298] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:287:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[23.961570] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__uninitialized_copy_a\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[23.962940] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.964382] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:287:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[23.965838] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:289:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[23.967130] (-) TimerEvent: {}
+[23.968773] (motor_controller) StderrLine: {'line': b'     { return std::uninitialized_copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K; }\n'}
+[23.970334] (motor_controller) StderrLine: {'line': b'                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[23.971718] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:67:0\x1b[m\x1b[K,\n'}
+[23.973035] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:62\x1b[m\x1b[K,\n'}
+[23.974325] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[23.975602] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[23.976833] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[23.978209] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_iterator.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = nlohmann::basic_json<>*; _Container = std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.980471] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_iterator.h:986:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[23.981742] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__niter_base\x1b[m\x1b[K(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)\n'}
+[23.982887] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.984021] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[23.985100] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[23.986198] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[23.987300] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {nlohmann::basic_json<std::map, std::vector, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, bool, long long int, long long unsigned int, double, std::allocator, nlohmann::adl_serializer>}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.988642] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[23.989945] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[23.990966] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.067444] (-) TimerEvent: {}
+[24.169350] (-) TimerEvent: {}
+[24.271115] (-) TimerEvent: {}
+[24.362591] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[24.364050] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[24.365279] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[24.366623] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[24.368039] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _OI = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.369412] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:446:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.370841] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kcopy\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[24.372084] (-) TimerEvent: {}
+[24.373681] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[24.375252] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:446:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.376648] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:456:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.378119] (motor_controller) StderrLine: {'line': b'         __result)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[24.379461] (motor_controller) StderrLine: {'line': b'                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[24.472412] (-) TimerEvent: {}
+[24.574391] (-) TimerEvent: {}
+[24.676331] (-) TimerEvent: {}
+[24.762328] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/map:61:0\x1b[m\x1b[K,\n'}
+[24.763854] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/ini/INIReader.h:15\x1b[m\x1b[K,\n'}
+[24.765250] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:31\x1b[m\x1b[K,\n'}
+[24.766574] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[24.767951] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_map.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::map<_Key, _Tp, _Compare, _Alloc>::iterator std::map<_Key, _Tp, _Compare, _Alloc>::erase(std::map<_Key, _Tp, _Compare, _Alloc>::iterator) [with _Key = std::__cxx11::basic_string<char>; _Tp = nlohmann::basic_json<>; _Compare = std::less<void>; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.770609] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_map.h:1030:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::iterator {aka std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.771883] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kerase\x1b[m\x1b[K(iterator __position)\n'}
+[24.773016] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[24.774179] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_map.h:1031:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::map<std::__cxx11::basic_string<char>, nlohmann::basic_json<>, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::iterator {aka std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.775385] (motor_controller) StderrLine: {'line': b'       { return _M_t.erase(__position\x1b[01;36m\x1b[K)\x1b[m\x1b[K; }\n'}
+[24.776446] (-) TimerEvent: {}
+[24.778073] (motor_controller) StderrLine: {'line': b'                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[24.779602] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:64:0\x1b[m\x1b[K,\n'}
+[24.780903] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[24.782159] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[24.783459] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::erase(std::vector<_Tp, _Alloc>::const_iterator) [with _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.784713] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:1179:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::const_iterator {aka __gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.786075] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kerase\x1b[m\x1b[K(const_iterator __position)\n'}
+[24.787299] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[24.788785] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:1180:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.790270] (motor_controller) StderrLine: {'line': b'       { return _M_erase(begin() + (__position - cbegin())\x1b[01;36m\x1b[K)\x1b[m\x1b[K; }\n'}
+[24.791520] (motor_controller) StderrLine: {'line': b'                                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[24.803794] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[24.805198] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[24.806397] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[24.807569] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {nlohmann::detail::value_t}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.808950] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.810278] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[24.811634] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.820708] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {double&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.822137] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.823372] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[24.824555] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.828299] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {bool&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.829714] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.830940] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[24.832110] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.835982] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {std::nullptr_t}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.837331] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.838871] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[24.840179] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.843617] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {long long int&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.844953] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.846383] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[24.847576] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.851401] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.852771] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.853998] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[24.855164] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.859250] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {long long unsigned int&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.860788] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:105:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.862016] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K_M_realloc_insert(end(), std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[24.863192] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.876775] (-) TimerEvent: {}
+[24.883319] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[24.884807] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[24.886181] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[24.887535] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[24.889058] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.890501] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.891860] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kuninitialized_copy\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[24.893127] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.894300] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.895483] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:134:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.896671] (motor_controller) StderrLine: {'line': b'  __uninit_copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[24.897933] (motor_controller) StderrLine: {'line': b'                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[24.922704] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = nlohmann::basic_json<>*; _ForwardIterator = nlohmann::basic_json<>*; _Allocator = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.924279] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:312:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[24.925629] (motor_controller) StderrLine: {'line': b'   _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[24.926992] (motor_controller) StderrLine: {'line': b'                                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[24.977083] (-) TimerEvent: {}
+[25.058042] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:64:0\x1b[m\x1b[K,\n'}
+[25.059456] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[25.060591] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[25.061693] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:\x1b[m\x1b[K In copy constructor \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.062926] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:331:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.064124] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),\x1b[m\x1b[K\n'}
+[25.065317] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.066414] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K          this->_M_impl._M_start,\x1b[m\x1b[K\n'}
+[25.067525] (motor_controller) StderrLine: {'line': b'           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.068798] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K          _M_get_Tp_allocator())\x1b[m\x1b[K;\n'}
+[25.069966] (motor_controller) StderrLine: {'line': b'           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.077377] (-) TimerEvent: {}
+[25.123345] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[25.124769] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[25.126009] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[25.127186] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[25.128746] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _OI = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.130170] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.131514] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__copy_move_a2\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[25.132841] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.134153] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.177673] (-) TimerEvent: {}
+[25.279634] (-) TimerEvent: {}
+[25.326929] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/map:60:0\x1b[m\x1b[K,\n'}
+[25.328552] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/ini/INIReader.h:15\x1b[m\x1b[K,\n'}
+[25.329818] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:31\x1b[m\x1b[K,\n'}
+[25.331021] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[25.332304] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::iterator std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::erase(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::iterator) [with _Key = std::__cxx11::basic_string<char>; _Val = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; _KeyOfValue = std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >; _Compare = std::less<void>; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.333804] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:1120:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::iterator {aka std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.335330] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kerase\x1b[m\x1b[K(iterator __position)\n'}
+[25.336570] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[25.338184] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:1125:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.339635] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K_M_erase_aux(__position)\x1b[m\x1b[K;\n'}
+[25.340845] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.344618] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[25.346567] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[25.347725] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[25.349064] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::_M_erase(std::vector<_Tp, _Alloc>::iterator) [with _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.350331] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:153:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.351632] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[25.352762] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.353857] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[25.354991] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[25.356296] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[25.357577] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[25.359002] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:157:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.360375] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K_\x1b[m\x1b[KGLIBCXX_MOVE3(__position + 1, end(), __position);\n'}
+[25.361639] (motor_controller) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[25.379445] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:69:0\x1b[m\x1b[K,\n'}
+[25.380803] (-) TimerEvent: {}
+[25.382227] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[25.383652] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[25.384829] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {nlohmann::detail::value_t}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.386058] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.387403] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[25.388722] (motor_controller) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.440020] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {double&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.441488] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.469938] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {bool&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.471544] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.481066] (-) TimerEvent: {}
+[25.500655] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {std::nullptr_t}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.502115] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.530440] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {long long int&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.531913] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.560225] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.561701] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.581342] (-) TimerEvent: {}
+[25.590715] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {long long unsigned int&}; _Tp = nlohmann::basic_json<>; _Alloc = std::allocator<nlohmann::basic_json<> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.592331] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/vector.tcc:394:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator {aka __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.627052] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[25.628666] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[25.629866] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[25.631003] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[25.632168] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*; bool _TrivialValueTypes = false]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.633387] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:76:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.634514] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K__uninit_copy\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[25.635664] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.636925] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:76:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::move_iterator<nlohmann::basic_json<>*>\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.681627] (-) TimerEvent: {}
+[25.780449] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >; _ForwardIterator = nlohmann::basic_json<>*; _Tp = nlohmann::basic_json<>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.781941] (-) TimerEvent: {}
+[25.783482] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:287:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.785031] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__uninitialized_copy_a\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[25.786276] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.787488] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:287:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.789016] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:289:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.790392] (motor_controller) StderrLine: {'line': b'     { return std::uninitialized_copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K; }\n'}
+[25.791729] (motor_controller) StderrLine: {'line': b'                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[25.882265] (-) TimerEvent: {}
+[25.984142] (-) TimerEvent: {}
+[25.986819] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/map:60:0\x1b[m\x1b[K,\n'}
+[25.988434] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/ini/INIReader.h:15\x1b[m\x1b[K,\n'}
+[25.989753] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:31\x1b[m\x1b[K,\n'}
+[25.991010] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[25.993805] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::_M_erase_aux(std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>::const_iterator) [with _Key = std::__cxx11::basic_string<char>; _Val = std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >; _KeyOfValue = std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >; _Compare = std::less<void>; _Alloc = std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.995254] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_tree.h:2470:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Rb_tree<std::__cxx11::basic_string<char>, std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> >, std::_Select1st<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >, std::less<void>, std::allocator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > > >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >}\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[25.996591] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>\x1b[m\x1b[K::\n'}
+[25.998058] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.999481] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[26.000775] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[26.002020] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[26.003303] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[26.004600] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::move(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >; _OI = __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.005987] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:479:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.007344] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kmove\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[26.008823] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.010097] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:479:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.011440] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:479:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.012773] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:488:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.014042] (motor_controller) StderrLine: {'line': b'            std::__miter_base(__last), __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[26.015468] (motor_controller) StderrLine: {'line': b'                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[26.084428] (-) TimerEvent: {}
+[26.168817] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[26.170316] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[26.171593] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[26.172915] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[26.174324] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >; _ForwardIterator = nlohmann::basic_json<>*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.175788] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.177237] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kuninitialized_copy\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[26.179327] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.180693] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.182062] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:134:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.183417] (motor_controller) StderrLine: {'line': b'  __uninit_copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[26.184619] (-) TimerEvent: {}
+[26.186200] (motor_controller) StderrLine: {'line': b'                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[26.284960] (-) TimerEvent: {}
+[26.318028] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[26.319446] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[26.320607] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[26.321805] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[26.322973] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = true; _II = __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >; _OI = __gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.324148] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.325410] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__copy_move_a2\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[26.326719] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.328049] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.329401] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.385263] (-) TimerEvent: {}
+[26.415745] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[26.417264] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[26.418629] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[26.419873] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.cpp:8\x1b[m\x1b[K:\n'}
+[26.421065] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >; _ForwardIterator = nlohmann::basic_json<>*; bool _TrivialValueTypes = false]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.422445] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:76:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.423607] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K__uninit_copy\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[26.424744] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.426041] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:76:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[26.485549] (-) TimerEvent: {}
+[26.587409] (-) TimerEvent: {}
+[26.689281] (-) TimerEvent: {}
+[26.791088] (-) TimerEvent: {}
+[26.892820] (-) TimerEvent: {}
+[26.994571] (-) TimerEvent: {}
+[27.095812] (-) TimerEvent: {}
+[27.197054] (-) TimerEvent: {}
+[27.298387] (-) TimerEvent: {}
+[27.400017] (-) TimerEvent: {}
+[27.501771] (-) TimerEvent: {}
+[27.603490] (-) TimerEvent: {}
+[27.705269] (-) TimerEvent: {}
+[27.806586] (-) TimerEvent: {}
+[27.908581] (-) TimerEvent: {}
+[28.010566] (-) TimerEvent: {}
+[28.112396] (-) TimerEvent: {}
+[28.214295] (-) TimerEvent: {}
+[28.316148] (-) TimerEvent: {}
+[28.418054] (-) TimerEvent: {}
+[28.520475] (-) TimerEvent: {}
+[28.526231] (motor_controller) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable motor_controller\x1b[0m\n'}
+[28.620830] (-) TimerEvent: {}
+[28.722150] (-) TimerEvent: {}
+[28.823394] (-) TimerEvent: {}
+[28.924656] (-) TimerEvent: {}
+[29.025901] (-) TimerEvent: {}
+[29.127178] (-) TimerEvent: {}
+[29.228671] (-) TimerEvent: {}
+[29.330152] (-) TimerEvent: {}
+[29.431417] (-) TimerEvent: {}
+[29.532679] (-) TimerEvent: {}
+[29.634010] (-) TimerEvent: {}
+[29.735293] (-) TimerEvent: {}
+[29.836551] (-) TimerEvent: {}
+[29.937874] (-) TimerEvent: {}
+[30.039111] (-) TimerEvent: {}
+[30.140350] (-) TimerEvent: {}
+[30.241606] (-) TimerEvent: {}
+[30.342876] (-) TimerEvent: {}
+[30.444160] (-) TimerEvent: {}
+[30.545438] (-) TimerEvent: {}
+[30.646687] (-) TimerEvent: {}
+[30.748003] (-) TimerEvent: {}
+[30.849233] (-) TimerEvent: {}
+[30.950430] (-) TimerEvent: {}
+[31.051625] (-) TimerEvent: {}
+[31.152818] (-) TimerEvent: {}
+[31.254024] (-) TimerEvent: {}
+[31.355232] (-) TimerEvent: {}
+[31.456458] (-) TimerEvent: {}
+[31.557696] (-) TimerEvent: {}
+[31.659190] (-) TimerEvent: {}
+[31.760470] (-) TimerEvent: {}
+[31.861764] (-) TimerEvent: {}
+[31.963049] (-) TimerEvent: {}
+[32.064364] (-) TimerEvent: {}
+[32.165716] (-) TimerEvent: {}
+[32.267032] (-) TimerEvent: {}
+[32.368523] (-) TimerEvent: {}
+[32.469736] (-) TimerEvent: {}
+[32.570938] (-) TimerEvent: {}
+[32.672145] (-) TimerEvent: {}
+[32.773353] (-) TimerEvent: {}
+[32.874567] (-) TimerEvent: {}
+[32.975781] (-) TimerEvent: {}
+[33.076992] (-) TimerEvent: {}
+[33.178258] (-) TimerEvent: {}
+[33.279408] (-) TimerEvent: {}
+[33.380591] (-) TimerEvent: {}
+[33.481800] (-) TimerEvent: {}
+[33.583012] (-) TimerEvent: {}
+[33.684226] (-) TimerEvent: {}
+[33.785439] (-) TimerEvent: {}
+[33.886657] (-) TimerEvent: {}
+[33.987969] (-) TimerEvent: {}
+[34.089186] (-) TimerEvent: {}
+[34.190370] (-) TimerEvent: {}
+[34.291551] (-) TimerEvent: {}
+[34.392738] (-) TimerEvent: {}
+[34.493931] (-) TimerEvent: {}
+[34.595152] (-) TimerEvent: {}
+[34.696425] (-) TimerEvent: {}
+[34.797769] (-) TimerEvent: {}
+[34.801909] (motor_controller) StdoutLine: {'line': b'[100%] Built target motor_controller\n'}
+[34.898109] (-) TimerEvent: {}
+[34.929378] (motor_controller) CommandEnded: {'returncode': 0}
+[34.998655] (-) TimerEvent: {}
+[35.100474] (-) TimerEvent: {}
+[35.201636] (-) TimerEvent: {}
+[35.303979] (-) TimerEvent: {}
+[35.351578] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'install'}
+[35.354322] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/motor_controller', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/motor_controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/motor_controller'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[35.404480] (-) TimerEvent: {}
+[35.518125] (-) TimerEvent: {}
+[35.619504] (-) TimerEvent: {}
+[35.720883] (-) TimerEvent: {}
+[35.822305] (-) TimerEvent: {}
+[35.923553] (-) TimerEvent: {}
+[36.024845] (-) TimerEvent: {}
+[36.039596] (motor_controller) StdoutLine: {'line': b'[100%] Built target motor_controller\n'}
+[36.125159] (-) TimerEvent: {}
+[36.226460] (-) TimerEvent: {}
+[36.261043] (motor_controller) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[36.326746] (-) TimerEvent: {}
+[36.373858] (motor_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.375826] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/launchfile\n'}
+[36.377131] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/launchfile/motor.launch\n'}
+[36.378919] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/ctrobot/dev_ws_de0/install/motor_controller/lib/motor_controller/motor_controller\n'}
+[36.428435] (-) TimerEvent: {}
+[36.480711] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/ctrobot/dev_ws_de0/install/motor_controller/lib/motor_controller/motor_controller" to ""\n'}
+[36.482402] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller\n'}
+[36.484075] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller\n'}
+[36.485691] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh\n'}
+[36.487193] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/environment/path.sh\n'}
+[36.488957] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/local_setup.bash\n'}
+[36.490670] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/local_setup.sh\n'}
+[36.492247] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/local_setup.zsh\n'}
+[36.493783] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/ament_index/resource_index/packages/motor_controller\n'}
+[36.495518] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[36.497125] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake\n'}
+[36.498516] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake\n'}
+[36.499694] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/package.xml\n'}
+[36.528135] (motor_controller) CommandEnded: {'returncode': 0}
+[36.531814] (-) TimerEvent: {}
+[36.596942] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[36.648047] (-) TimerEvent: {}
+[36.648858] (-) EventReactorShutdown: {}

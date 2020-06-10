@@ -1,0 +1,760 @@
+[0.000000] (-) TimerEvent: {}
+[0.002429] (reflexxes) JobQueued: {'identifier': 'reflexxes', 'dependencies': OrderedDict()}
+[0.003062] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict([('reflexxes', '/home/ctrobot/dev_ws_de0/install/reflexxes')])}
+[0.004862] (reflexxes) JobStarted: {'identifier': 'reflexxes'}
+[0.098471] (-) TimerEvent: {}
+[0.115138] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'cmake'}
+[0.121227] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'build'}
+[0.128149] (reflexxes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/reflexxes', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/reflexxes', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/reflexxes'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[0.198848] (-) TimerEvent: {}
+[0.300534] (-) TimerEvent: {}
+[0.401924] (-) TimerEvent: {}
+[0.503266] (-) TimerEvent: {}
+[0.604592] (-) TimerEvent: {}
+[0.705894] (-) TimerEvent: {}
+[0.789266] (reflexxes) StdoutLine: {'line': b'[100%] Built target reflexxes\n'}
+[0.806214] (-) TimerEvent: {}
+[0.907538] (-) TimerEvent: {}
+[0.922205] (reflexxes) CommandEnded: {'returncode': 0}
+[1.008096] (-) TimerEvent: {}
+[1.109839] (-) TimerEvent: {}
+[1.211083] (-) TimerEvent: {}
+[1.312474] (-) TimerEvent: {}
+[1.413867] (-) TimerEvent: {}
+[1.515194] (-) TimerEvent: {}
+[1.616449] (-) TimerEvent: {}
+[1.717806] (-) TimerEvent: {}
+[1.745167] (reflexxes) JobProgress: {'identifier': 'reflexxes', 'progress': 'install'}
+[1.818474] (-) TimerEvent: {}
+[1.860573] (reflexxes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/reflexxes', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/reflexxes', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/reflexxes'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[1.918784] (-) TimerEvent: {}
+[2.020301] (-) TimerEvent: {}
+[2.121596] (-) TimerEvent: {}
+[2.223021] (-) TimerEvent: {}
+[2.324225] (-) TimerEvent: {}
+[2.425525] (-) TimerEvent: {}
+[2.515360] (reflexxes) StdoutLine: {'line': b'[100%] Built target reflexxes\n'}
+[2.525840] (-) TimerEvent: {}
+[2.627219] (-) TimerEvent: {}
+[2.728508] (-) TimerEvent: {}
+[2.739712] (reflexxes) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.828813] (-) TimerEvent: {}
+[2.845031] (reflexxes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.846828] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/library_path.sh\n'}
+[2.849707] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/lib/libreflexxes.a\n'}
+[2.852769] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include/\n'}
+[2.855238] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLPosition.h\n'}
+[2.857147] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityOutputParameters.h\n'}
+[2.859200] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//ReflexxesAPI.h\n'}
+[2.861216] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2Profiles.h\n'}
+[2.863616] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionInputParameters.h\n'}
+[2.865156] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionOutputParameters.h\n'}
+[2.866482] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLPolynomial.h\n'}
+[2.867713] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLFlags.h\n'}
+[2.869040] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLVelocity.h\n'}
+[2.870288] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLPositionFlags.h\n'}
+[2.871350] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2WithoutSynchronization.h\n'}
+[2.872654] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree2.h\n'}
+[2.873768] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep1Profiles.h\n'}
+[2.874840] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityInputParameters.h\n'}
+[2.876010] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1A.h\n'}
+[2.883183] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisions.h\n'}
+[2.884304] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLOutputParameters.h\n'}
+[2.895000] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLMath.h\n'}
+[2.896836] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLInputParameters.h\n'}
+[2.898386] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep1IntermediateProfiles.h\n'}
+[2.899990] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVector.h\n'}
+[2.901511] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1B.h\n'}
+[2.903085] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLStep2IntermediateProfiles.h\n'}
+[2.904554] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLDecisionTree1C.h\n'}
+[2.906012] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//TypeIIRMLQuicksort.h\n'}
+[2.907242] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/include//RMLVelocityFlags.h\n'}
+[2.908751] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/package_run_dependencies/reflexxes\n'}
+[2.911983] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/parent_prefix_path/reflexxes\n'}
+[2.913741] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/ament_prefix_path.sh\n'}
+[2.915060] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/environment/path.sh\n'}
+[2.916905] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.bash\n'}
+[2.918127] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.sh\n'}
+[2.919375] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/local_setup.zsh\n'}
+[2.920747] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/ament_index/resource_index/packages/reflexxes\n'}
+[2.922451] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.924050] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.926436] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/reflexxesConfig.cmake\n'}
+[2.928045] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/cmake/reflexxesConfig-version.cmake\n'}
+[2.930176] (-) TimerEvent: {}
+[2.931665] (reflexxes) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/reflexxes/share/reflexxes/package.xml\n'}
+[2.937413] (reflexxes) CommandEnded: {'returncode': 0}
+[3.034997] (-) TimerEvent: {}
+[3.050419] (reflexxes) JobEnded: {'identifier': 'reflexxes', 'rc': 0}
+[3.074550] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[3.137450] (-) TimerEvent: {}
+[3.141301] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'cmake'}
+[3.148113] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'build'}
+[3.151138] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/motor_controller', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/motor_controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/motor_controller'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[3.237787] (-) TimerEvent: {}
+[3.339323] (-) TimerEvent: {}
+[3.440580] (-) TimerEvent: {}
+[3.541864] (-) TimerEvent: {}
+[3.643059] (-) TimerEvent: {}
+[3.660770] (motor_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_controller\x1b[0m\n'}
+[3.743333] (-) TimerEvent: {}
+[3.845039] (-) TimerEvent: {}
+[3.946963] (-) TimerEvent: {}
+[3.993157] (motor_controller) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller.dir/src/motor_controller.cpp.o\x1b[0m\n'}
+[4.047272] (-) TimerEvent: {}
+[4.148509] (-) TimerEvent: {}
+[4.249736] (-) TimerEvent: {}
+[4.350970] (-) TimerEvent: {}
+[4.452317] (-) TimerEvent: {}
+[4.553546] (-) TimerEvent: {}
+[4.654767] (-) TimerEvent: {}
+[4.756065] (-) TimerEvent: {}
+[4.857289] (-) TimerEvent: {}
+[4.958545] (-) TimerEvent: {}
+[5.060319] (-) TimerEvent: {}
+[5.162156] (-) TimerEvent: {}
+[5.263903] (-) TimerEvent: {}
+[5.365743] (-) TimerEvent: {}
+[5.467518] (-) TimerEvent: {}
+[5.569372] (-) TimerEvent: {}
+[5.671203] (-) TimerEvent: {}
+[5.773141] (-) TimerEvent: {}
+[5.874996] (-) TimerEvent: {}
+[5.976871] (-) TimerEvent: {}
+[6.078766] (-) TimerEvent: {}
+[6.180664] (-) TimerEvent: {}
+[6.282648] (-) TimerEvent: {}
+[6.384479] (-) TimerEvent: {}
+[6.486242] (-) TimerEvent: {}
+[6.588025] (-) TimerEvent: {}
+[6.689894] (-) TimerEvent: {}
+[6.791849] (-) TimerEvent: {}
+[6.893696] (-) TimerEvent: {}
+[6.995594] (-) TimerEvent: {}
+[7.097408] (-) TimerEvent: {}
+[7.199344] (-) TimerEvent: {}
+[7.301248] (-) TimerEvent: {}
+[7.403219] (-) TimerEvent: {}
+[7.505045] (-) TimerEvent: {}
+[7.606884] (-) TimerEvent: {}
+[7.708735] (-) TimerEvent: {}
+[7.810585] (-) TimerEvent: {}
+[7.912501] (-) TimerEvent: {}
+[8.014335] (-) TimerEvent: {}
+[8.116093] (-) TimerEvent: {}
+[8.217892] (-) TimerEvent: {}
+[8.319696] (-) TimerEvent: {}
+[8.421531] (-) TimerEvent: {}
+[8.522828] (-) TimerEvent: {}
+[8.624026] (-) TimerEvent: {}
+[8.725238] (-) TimerEvent: {}
+[8.826462] (-) TimerEvent: {}
+[8.863186] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:20:0\x1b[m\x1b[K,\n'}
+[8.865066] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32\x1b[m\x1b[K,\n'}
+[8.866497] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[8.867889] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CTRobot::fpgaCommunication::writeByte(uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.869258] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:48:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.870620] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.872956] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.882008] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CTRobot::fpgaCommunication::writeTwoBytes(uint16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.883608] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:51:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.885575] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.886870] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.888057] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool CTRobot::fpgaCommunication::writeTwoWords(uint64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.889256] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:57:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[8.890390] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[8.891519] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.892898] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:21:0\x1b[m\x1b[K,\n'}
+[8.894245] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32\x1b[m\x1b[K,\n'}
+[8.895520] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[8.896838] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaEncoder.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CTRobot::fpgaEncoder::reset()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.898118] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaEncoder.h:71:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K+\x1b[m\x1b[K\xe2\x80\x99 inside \xe2\x80\x98\x1b[01m\x1b[K<<\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[8.899378] (motor_controller) StderrLine: {'line': b'             temp = temp | (1<<\x1b[01;35m\x1b[KencoderIndex + 8\x1b[m\x1b[K);\n'}
+[8.900582] (motor_controller) StderrLine: {'line': b'                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.926777] (-) TimerEvent: {}
+[9.028155] (-) TimerEvent: {}
+[9.129397] (-) TimerEvent: {}
+[9.230635] (-) TimerEvent: {}
+[9.331976] (-) TimerEvent: {}
+[9.433199] (-) TimerEvent: {}
+[9.447638] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:22:0\x1b[m\x1b[K,\n'}
+[9.449844] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32\x1b[m\x1b[K,\n'}
+[9.450829] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[9.451898] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCTRobot::AS5048b::AS5048b(uint8_t, int16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.466184] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:71:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCTRobot::AS5048b::LSB\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.468591] (motor_controller) StderrLine: {'line': b'         uint8_t \x1b[01;35m\x1b[KLSB\x1b[m\x1b[K;\n'}
+[9.470509] (motor_controller) StderrLine: {'line': b'                 \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.471903] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:69:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble CTRobot::AS5048b::currentAngle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.473280] (motor_controller) StderrLine: {'line': b'         double \x1b[01;35m\x1b[KcurrentAngle\x1b[m\x1b[K;\n'}
+[9.474598] (motor_controller) StderrLine: {'line': b'                \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.475918] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.477315] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[KAS5048b\x1b[m\x1b[K(uint8_t anAddress, int16_t aOffset = 0): I2CSlaveDevice(anAddress), offset(aOffset),MSB(0),LSB(0),currentAngle(0),\n'}
+[9.478651] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.479980] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:69:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCTRobot::AS5048b::currentAngle\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.481217] (motor_controller) StderrLine: {'line': b'         double \x1b[01;35m\x1b[KcurrentAngle\x1b[m\x1b[K;\n'}
+[9.482695] (motor_controller) StderrLine: {'line': b'                \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.483991] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:67:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kuint16_t CTRobot::AS5048b::currentAngleR\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.485273] (motor_controller) StderrLine: {'line': b'         uint16_t \x1b[01;35m\x1b[KcurrentAngleR\x1b[m\x1b[K;\n'}
+[9.486552] (motor_controller) StderrLine: {'line': b'                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.487809] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[9.489064] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[KAS5048b\x1b[m\x1b[K(uint8_t anAddress, int16_t aOffset = 0): I2CSlaveDevice(anAddress), offset(aOffset),MSB(0),LSB(0),currentAngle(0),\n'}
+[9.490290] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.533492] (-) TimerEvent: {}
+[9.634846] (-) TimerEvent: {}
+[9.736177] (-) TimerEvent: {}
+[9.837482] (-) TimerEvent: {}
+[9.938834] (-) TimerEvent: {}
+[10.040199] (-) TimerEvent: {}
+[10.141533] (-) TimerEvent: {}
+[10.242955] (-) TimerEvent: {}
+[10.344261] (-) TimerEvent: {}
+[10.445548] (-) TimerEvent: {}
+[10.546868] (-) TimerEvent: {}
+[10.648219] (-) TimerEvent: {}
+[10.749543] (-) TimerEvent: {}
+[10.850847] (-) TimerEvent: {}
+[10.952290] (-) TimerEvent: {}
+[11.053623] (-) TimerEvent: {}
+[11.155000] (-) TimerEvent: {}
+[11.256216] (-) TimerEvent: {}
+[11.357426] (-) TimerEvent: {}
+[11.458644] (-) TimerEvent: {}
+[11.559863] (-) TimerEvent: {}
+[11.661079] (-) TimerEvent: {}
+[11.762385] (-) TimerEvent: {}
+[11.864208] (-) TimerEvent: {}
+[11.966075] (-) TimerEvent: {}
+[12.067889] (-) TimerEvent: {}
+[12.091925] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32:0\x1b[m\x1b[K,\n'}
+[12.095145] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[12.096486] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCTRobot::motorController::motorController(unsigned char*, unsigned char*, unsigned char*, uint32_t, std::__cxx11::string, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.097762] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:152:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCTRobot::motorController::motorIndex\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.098993] (motor_controller) StderrLine: {'line': b'         uint32_t \x1b[01;35m\x1b[KmotorIndex\x1b[m\x1b[K;\n'}
+[12.100152] (motor_controller) StderrLine: {'line': b'                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.101290] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:148:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KCTRobot::fpgaCommunication CTRobot::motorController::motorEnable\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.102913] (motor_controller) StderrLine: {'line': b'         fpgaCommunication \x1b[01;35m\x1b[KmotorEnable\x1b[m\x1b[K;\n'}
+[12.104192] (motor_controller) StderrLine: {'line': b'                           \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.105357] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32:0\x1b[m\x1b[K,\n'}
+[12.106591] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[12.107837] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:34:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.109099] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[KmotorController\x1b[m\x1b[K(unsigned char* PWMAddress, unsigned char* dirAddress, unsigned char* ADCAddr, uint32_t anIndex, std::string aMotorAddress, double dtSet, double cutoffFrequencyLPVelocity)\n'}
+[12.110319] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.111537] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32:0\x1b[m\x1b[K,\n'}
+[12.113051] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[12.114341] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:171:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCTRobot::motorController::wc\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.115676] (motor_controller) StderrLine: {'line': b'                 \x1b[01;35m\x1b[Kwc\x1b[m\x1b[K;\n'}
+[12.116892] (motor_controller) StderrLine: {'line': b'                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.118041] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:156:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ku_int8_t CTRobot::motorController::previousHB\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.119376] (motor_controller) StderrLine: {'line': b'         u_int8_t \x1b[01;35m\x1b[KpreviousHB\x1b[m\x1b[K;\n'}
+[12.120561] (motor_controller) StderrLine: {'line': b'                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.121880] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:32:0\x1b[m\x1b[K,\n'}
+[12.123295] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[12.124517] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorController.h:34:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.125707] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[KmotorController\x1b[m\x1b[K(unsigned char* PWMAddress, unsigned char* dirAddress, unsigned char* ADCAddr, uint32_t anIndex, std::string aMotorAddress, double dtSet, double cutoffFrequencyLPVelocity)\n'}
+[12.126864] (motor_controller) StderrLine: {'line': b'         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.168172] (-) TimerEvent: {}
+[12.270052] (-) TimerEvent: {}
+[12.371974] (-) TimerEvent: {}
+[12.473827] (-) TimerEvent: {}
+[12.531650] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1:0\x1b[m\x1b[K:\n'}
+[12.534158] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KmotorControlThread::motorControlThread(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.535450] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:132:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmotorControlThread::shouldStop\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.536691] (motor_controller) StderrLine: {'line': b'     bool \x1b[01;35m\x1b[KshouldStop\x1b[m\x1b[K;\n'}
+[12.537879] (motor_controller) StderrLine: {'line': b'\n'}
+[12.539038] (motor_controller) StderrLine: {'line': b'          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.540267] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:130:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool motorControlThread::setup\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.541497] (motor_controller) StderrLine: {'line': b'     bool \x1b[01;35m\x1b[Ksetup\x1b[m\x1b[K;\n'}
+[12.542924] (motor_controller) StderrLine: {'line': b'\n'}
+[12.544170] (motor_controller) StderrLine: {'line': b'          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[12.545449] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:44:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[12.546716] (motor_controller) StderrLine: {'line': b'     \x1b[01;35m\x1b[KmotorControlThread\x1b[m\x1b[K(int aFrequency = 500):frequency(aFrequency),shouldStop(false)\n'}
+[12.547908] (motor_controller) StderrLine: {'line': b'\n'}
+[12.549075] (motor_controller) StderrLine: {'line': b'     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.574099] (-) TimerEvent: {}
+[12.675943] (-) TimerEvent: {}
+[12.777743] (-) TimerEvent: {}
+[12.879515] (-) TimerEvent: {}
+[12.981342] (-) TimerEvent: {}
+[13.083276] (-) TimerEvent: {}
+[13.185144] (-) TimerEvent: {}
+[13.287036] (-) TimerEvent: {}
+[13.388925] (-) TimerEvent: {}
+[13.490799] (-) TimerEvent: {}
+[13.592756] (-) TimerEvent: {}
+[13.694573] (-) TimerEvent: {}
+[13.796442] (-) TimerEvent: {}
+[13.898299] (-) TimerEvent: {}
+[14.000143] (-) TimerEvent: {}
+[14.102069] (-) TimerEvent: {}
+[14.204007] (-) TimerEvent: {}
+[14.305865] (-) TimerEvent: {}
+[14.407747] (-) TimerEvent: {}
+[14.509571] (-) TimerEvent: {}
+[14.615999] (-) TimerEvent: {}
+[14.717811] (-) TimerEvent: {}
+[14.819646] (-) TimerEvent: {}
+[14.921518] (-) TimerEvent: {}
+[15.023502] (-) TimerEvent: {}
+[15.125388] (-) TimerEvent: {}
+[15.227249] (-) TimerEvent: {}
+[15.329074] (-) TimerEvent: {}
+[15.430899] (-) TimerEvent: {}
+[15.532813] (-) TimerEvent: {}
+[15.634631] (-) TimerEvent: {}
+[15.736444] (-) TimerEvent: {}
+[15.838275] (-) TimerEvent: {}
+[15.940105] (-) TimerEvent: {}
+[16.041975] (-) TimerEvent: {}
+[16.143770] (-) TimerEvent: {}
+[16.245617] (-) TimerEvent: {}
+[16.347420] (-) TimerEvent: {}
+[16.449229] (-) TimerEvent: {}
+[16.551093] (-) TimerEvent: {}
+[16.653034] (-) TimerEvent: {}
+[16.754834] (-) TimerEvent: {}
+[16.856632] (-) TimerEvent: {}
+[16.958480] (-) TimerEvent: {}
+[17.060341] (-) TimerEvent: {}
+[17.162294] (-) TimerEvent: {}
+[17.264102] (-) TimerEvent: {}
+[17.365905] (-) TimerEvent: {}
+[17.467115] (-) TimerEvent: {}
+[17.568333] (-) TimerEvent: {}
+[17.669554] (-) TimerEvent: {}
+[17.770777] (-) TimerEvent: {}
+[17.872356] (-) TimerEvent: {}
+[17.974192] (-) TimerEvent: {}
+[18.076090] (-) TimerEvent: {}
+[18.177908] (-) TimerEvent: {}
+[18.279763] (-) TimerEvent: {}
+[18.381594] (-) TimerEvent: {}
+[18.483506] (-) TimerEvent: {}
+[18.585344] (-) TimerEvent: {}
+[18.687224] (-) TimerEvent: {}
+[18.789178] (-) TimerEvent: {}
+[18.891193] (-) TimerEvent: {}
+[18.993134] (-) TimerEvent: {}
+[19.094993] (-) TimerEvent: {}
+[19.196840] (-) TimerEvent: {}
+[19.298670] (-) TimerEvent: {}
+[19.331193] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.332957] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:35:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[19.334196] (motor_controller) StderrLine: {'line': b'     void topic_callback(const std_msgs::msg::String::SharedPtr \x1b[01;35m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[19.335331] (motor_controller) StderrLine: {'line': b'                                                                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[19.362036] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback2(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.363740] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:39:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[19.364968] (motor_controller) StderrLine: {'line': b'   void topic_callback2(const sensor_msgs::msg::JointState::SharedPtr \x1b[01;35m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[19.366133] (motor_controller) StderrLine: {'line': b'                                                                      \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[19.398952] (-) TimerEvent: {}
+[19.500835] (-) TimerEvent: {}
+[19.602796] (-) TimerEvent: {}
+[19.711273] (-) TimerEvent: {}
+[19.813272] (-) TimerEvent: {}
+[19.915121] (-) TimerEvent: {}
+[20.016984] (-) TimerEvent: {}
+[20.118897] (-) TimerEvent: {}
+[20.220762] (-) TimerEvent: {}
+[20.322713] (-) TimerEvent: {}
+[20.424575] (-) TimerEvent: {}
+[20.526428] (-) TimerEvent: {}
+[20.628293] (-) TimerEvent: {}
+[20.730128] (-) TimerEvent: {}
+[20.831983] (-) TimerEvent: {}
+[20.933868] (-) TimerEvent: {}
+[21.035671] (-) TimerEvent: {}
+[21.137692] (-) TimerEvent: {}
+[21.239606] (-) TimerEvent: {}
+[21.341471] (-) TimerEvent: {}
+[21.443392] (-) TimerEvent: {}
+[21.545287] (-) TimerEvent: {}
+[21.647177] (-) TimerEvent: {}
+[21.749047] (-) TimerEvent: {}
+[21.850880] (-) TimerEvent: {}
+[21.952816] (-) TimerEvent: {}
+[22.054635] (-) TimerEvent: {}
+[22.156471] (-) TimerEvent: {}
+[22.258317] (-) TimerEvent: {}
+[22.360203] (-) TimerEvent: {}
+[22.461429] (-) TimerEvent: {}
+[22.562797] (-) TimerEvent: {}
+[22.664686] (-) TimerEvent: {}
+[22.766537] (-) TimerEvent: {}
+[22.868365] (-) TimerEvent: {}
+[22.970261] (-) TimerEvent: {}
+[23.072177] (-) TimerEvent: {}
+[23.174065] (-) TimerEvent: {}
+[23.275952] (-) TimerEvent: {}
+[23.377817] (-) TimerEvent: {}
+[23.479704] (-) TimerEvent: {}
+[23.581558] (-) TimerEvent: {}
+[23.683544] (-) TimerEvent: {}
+[23.785350] (-) TimerEvent: {}
+[23.887174] (-) TimerEvent: {}
+[23.989042] (-) TimerEvent: {}
+[24.090885] (-) TimerEvent: {}
+[24.192963] (-) TimerEvent: {}
+[24.294820] (-) TimerEvent: {}
+[24.396676] (-) TimerEvent: {}
+[24.498561] (-) TimerEvent: {}
+[24.600433] (-) TimerEvent: {}
+[24.702367] (-) TimerEvent: {}
+[24.808833] (-) TimerEvent: {}
+[24.910728] (-) TimerEvent: {}
+[25.012727] (-) TimerEvent: {}
+[25.114602] (-) TimerEvent: {}
+[25.216467] (-) TimerEvent: {}
+[25.318372] (-) TimerEvent: {}
+[25.420208] (-) TimerEvent: {}
+[25.522248] (-) TimerEvent: {}
+[25.624058] (-) TimerEvent: {}
+[25.725977] (-) TimerEvent: {}
+[25.827277] (-) TimerEvent: {}
+[25.928490] (-) TimerEvent: {}
+[26.029700] (-) TimerEvent: {}
+[26.130913] (-) TimerEvent: {}
+[26.232523] (-) TimerEvent: {}
+[26.334353] (-) TimerEvent: {}
+[26.436162] (-) TimerEvent: {}
+[26.538006] (-) TimerEvent: {}
+[26.639891] (-) TimerEvent: {}
+[26.741874] (-) TimerEvent: {}
+[26.843748] (-) TimerEvent: {}
+[26.945644] (-) TimerEvent: {}
+[27.047491] (-) TimerEvent: {}
+[27.149344] (-) TimerEvent: {}
+[27.251176] (-) TimerEvent: {}
+[27.353141] (-) TimerEvent: {}
+[27.455025] (-) TimerEvent: {}
+[27.556915] (-) TimerEvent: {}
+[27.658797] (-) TimerEvent: {}
+[27.760632] (-) TimerEvent: {}
+[27.861919] (-) TimerEvent: {}
+[27.963792] (-) TimerEvent: {}
+[28.065679] (-) TimerEvent: {}
+[28.167530] (-) TimerEvent: {}
+[28.269410] (-) TimerEvent: {}
+[28.371268] (-) TimerEvent: {}
+[28.473096] (-) TimerEvent: {}
+[28.574817] (-) TimerEvent: {}
+[28.676540] (-) TimerEvent: {}
+[28.778307] (-) TimerEvent: {}
+[28.879526] (-) TimerEvent: {}
+[28.980750] (-) TimerEvent: {}
+[29.081975] (-) TimerEvent: {}
+[29.183184] (-) TimerEvent: {}
+[29.284395] (-) TimerEvent: {}
+[29.385588] (-) TimerEvent: {}
+[29.486783] (-) TimerEvent: {}
+[29.587981] (-) TimerEvent: {}
+[29.689180] (-) TimerEvent: {}
+[29.790380] (-) TimerEvent: {}
+[29.891605] (-) TimerEvent: {}
+[29.992880] (-) TimerEvent: {}
+[30.094069] (-) TimerEvent: {}
+[30.195267] (-) TimerEvent: {}
+[30.296462] (-) TimerEvent: {}
+[30.397661] (-) TimerEvent: {}
+[30.498925] (-) TimerEvent: {}
+[30.600130] (-) TimerEvent: {}
+[30.701336] (-) TimerEvent: {}
+[30.802636] (-) TimerEvent: {}
+[30.903911] (-) TimerEvent: {}
+[31.005266] (-) TimerEvent: {}
+[31.106892] (-) TimerEvent: {}
+[31.208736] (-) TimerEvent: {}
+[31.310514] (-) TimerEvent: {}
+[31.412413] (-) TimerEvent: {}
+[31.514213] (-) TimerEvent: {}
+[31.616019] (-) TimerEvent: {}
+[31.717899] (-) TimerEvent: {}
+[31.819800] (-) TimerEvent: {}
+[31.921756] (-) TimerEvent: {}
+[32.022969] (-) TimerEvent: {}
+[32.124215] (-) TimerEvent: {}
+[32.225457] (-) TimerEvent: {}
+[32.326692] (-) TimerEvent: {}
+[32.427923] (-) TimerEvent: {}
+[32.529142] (-) TimerEvent: {}
+[32.630371] (-) TimerEvent: {}
+[32.731601] (-) TimerEvent: {}
+[32.832906] (-) TimerEvent: {}
+[32.900473] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/vector:64:0\x1b[m\x1b[K,\n'}
+[32.902045] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:23\x1b[m\x1b[K,\n'}
+[32.903274] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[32.904449] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:\x1b[m\x1b[K In copy constructor \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.905568] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_vector.h:331:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[32.906784] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),\x1b[m\x1b[K\n'}
+[32.908011] (motor_controller) StderrLine: {'line': b'    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.909107] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K          this->_M_impl._M_start,\x1b[m\x1b[K\n'}
+[32.910184] (motor_controller) StderrLine: {'line': b'           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.911228] (motor_controller) StderrLine: {'line': b' \x1b[01;36m\x1b[K          _M_get_Tp_allocator())\x1b[m\x1b[K;\n'}
+[32.912750] (motor_controller) StderrLine: {'line': b'           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.933177] (-) TimerEvent: {}
+[33.035085] (-) TimerEvent: {}
+[33.137002] (-) TimerEvent: {}
+[33.238845] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:65:0\x1b[m\x1b[K,\n'}
+[33.240278] (-) TimerEvent: {}
+[33.241957] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[33.243558] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[33.244857] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[33.246171] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*; _Tp = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.247449] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:287:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[33.248677] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__uninitialized_copy_a\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[33.249868] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.251161] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:287:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[33.252706] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:289:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[33.254071] (motor_controller) StderrLine: {'line': b'     { return std::uninitialized_copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K; }\n'}
+[33.255259] (motor_controller) StderrLine: {'line': b'                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[33.340609] (-) TimerEvent: {}
+[33.442610] (-) TimerEvent: {}
+[33.544495] (-) TimerEvent: {}
+[33.646277] (-) TimerEvent: {}
+[33.661076] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.662723] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[33.664002] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kuninitialized_copy\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[33.665308] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.666585] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[33.668004] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:134:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[33.669301] (motor_controller) StderrLine: {'line': b'  __uninit_copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[33.670543] (motor_controller) StderrLine: {'line': b'                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[33.746580] (-) TimerEvent: {}
+[33.848402] (-) TimerEvent: {}
+[33.950238] (-) TimerEvent: {}
+[34.052348] (-) TimerEvent: {}
+[34.154187] (-) TimerEvent: {}
+[34.174547] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _ForwardIterator = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.176074] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:99:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[34.177537] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K__uninit_copy\x1b[m\x1b[K(_InputIterator __first, _InputIterator __last,\n'}
+[34.178904] (motor_controller) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.180178] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:99:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[34.181489] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_uninitialized.h:101:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[34.182892] (motor_controller) StderrLine: {'line': b'         { return std::copy(__first, __last, __result\x1b[01;36m\x1b[K)\x1b[m\x1b[K; }\n'}
+[34.184034] (motor_controller) StderrLine: {'line': b'                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[34.254468] (-) TimerEvent: {}
+[34.356174] (-) TimerEvent: {}
+[34.457922] (-) TimerEvent: {}
+[34.559652] (-) TimerEvent: {}
+[34.661558] (-) TimerEvent: {}
+[34.716487] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[34.717939] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[34.719167] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[34.720373] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[34.721655] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _OI = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[34.723264] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:446:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[34.724496] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kcopy\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[34.725769] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[34.727049] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:446:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[34.728353] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:456:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[34.729690] (motor_controller) StderrLine: {'line': b'         __result)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[34.730995] (motor_controller) StderrLine: {'line': b'                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[34.761966] (-) TimerEvent: {}
+[34.863881] (-) TimerEvent: {}
+[34.965793] (-) TimerEvent: {}
+[35.067630] (-) TimerEvent: {}
+[35.130591] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:61:0\x1b[m\x1b[K,\n'}
+[35.132296] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:62\x1b[m\x1b[K,\n'}
+[35.134613] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[35.135839] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[35.136991] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[35.138235] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/cpp_type_traits.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.139598] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/cpp_type_traits.h:408:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[35.140914] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__miter_base\x1b[m\x1b[K(_Iterator __it)\n'}
+[35.142415] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.143798] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:62:0\x1b[m\x1b[K,\n'}
+[35.145113] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[35.146542] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[35.147846] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[35.149082] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double> >; _OI = double*]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.150522] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[35.152176] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__copy_move_a2\x1b[m\x1b[K(_II __first, _II __last, _OI __result)\n'}
+[35.153961] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.155275] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[35.167938] (-) TimerEvent: {}
+[35.269855] (-) TimerEvent: {}
+[35.371784] (-) TimerEvent: {}
+[35.445368] (motor_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/bits/stl_algobase.h:67:0\x1b[m\x1b[K,\n'}
+[35.447077] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/memory:62\x1b[m\x1b[K,\n'}
+[35.448478] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/7/thread:39\x1b[m\x1b[K,\n'}
+[35.449824] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/motorControlThread.h:13\x1b[m\x1b[K,\n'}
+[35.451149] (motor_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:1\x1b[m\x1b[K:\n'}
+[35.453036] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_iterator.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = const double*; _Container = std::vector<double>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.454388] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/stl_iterator.h:986:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__normal_iterator<const double*, std::vector<double> >\x1b[m\x1b[K\xe2\x80\x99 changed in GCC 7.1\n'}
+[35.455684] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K__niter_base\x1b[m\x1b[K(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)\n'}
+[35.456982] (motor_controller) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.471995] (-) TimerEvent: {}
+[35.573773] (-) TimerEvent: {}
+[35.675586] (-) TimerEvent: {}
+[35.777366] (-) TimerEvent: {}
+[35.879246] (-) TimerEvent: {}
+[35.980549] (-) TimerEvent: {}
+[36.082631] (-) TimerEvent: {}
+[36.184480] (-) TimerEvent: {}
+[36.286267] (-) TimerEvent: {}
+[36.388067] (-) TimerEvent: {}
+[36.490108] (-) TimerEvent: {}
+[36.591998] (-) TimerEvent: {}
+[36.693863] (-) TimerEvent: {}
+[36.795643] (-) TimerEvent: {}
+[36.897453] (-) TimerEvent: {}
+[36.999374] (-) TimerEvent: {}
+[37.101275] (-) TimerEvent: {}
+[37.203128] (-) TimerEvent: {}
+[37.304970] (-) TimerEvent: {}
+[37.406744] (-) TimerEvent: {}
+[37.508581] (-) TimerEvent: {}
+[37.610492] (-) TimerEvent: {}
+[37.712347] (-) TimerEvent: {}
+[37.814270] (-) TimerEvent: {}
+[37.916176] (-) TimerEvent: {}
+[38.017965] (-) TimerEvent: {}
+[38.119745] (-) TimerEvent: {}
+[38.221537] (-) TimerEvent: {}
+[38.323465] (-) TimerEvent: {}
+[38.425282] (-) TimerEvent: {}
+[38.527119] (-) TimerEvent: {}
+[38.628974] (-) TimerEvent: {}
+[38.730816] (-) TimerEvent: {}
+[38.832821] (-) TimerEvent: {}
+[38.934706] (-) TimerEvent: {}
+[39.036568] (-) TimerEvent: {}
+[39.138315] (-) TimerEvent: {}
+[39.240215] (-) TimerEvent: {}
+[39.342161] (-) TimerEvent: {}
+[39.444018] (-) TimerEvent: {}
+[39.545925] (-) TimerEvent: {}
+[39.647832] (-) TimerEvent: {}
+[39.749684] (-) TimerEvent: {}
+[39.851444] (-) TimerEvent: {}
+[39.953426] (-) TimerEvent: {}
+[40.055284] (-) TimerEvent: {}
+[40.157059] (-) TimerEvent: {}
+[40.258902] (-) TimerEvent: {}
+[40.360704] (-) TimerEvent: {}
+[40.462568] (-) TimerEvent: {}
+[40.564366] (-) TimerEvent: {}
+[40.666284] (-) TimerEvent: {}
+[40.768166] (-) TimerEvent: {}
+[40.870000] (-) TimerEvent: {}
+[40.971953] (-) TimerEvent: {}
+[41.073812] (-) TimerEvent: {}
+[41.175561] (-) TimerEvent: {}
+[41.277443] (-) TimerEvent: {}
+[41.379346] (-) TimerEvent: {}
+[41.481194] (-) TimerEvent: {}
+[41.583180] (-) TimerEvent: {}
+[41.685084] (-) TimerEvent: {}
+[41.786828] (-) TimerEvent: {}
+[41.888607] (-) TimerEvent: {}
+[41.990420] (-) TimerEvent: {}
+[42.091669] (-) TimerEvent: {}
+[42.193170] (-) TimerEvent: {}
+[42.295001] (-) TimerEvent: {}
+[42.396839] (-) TimerEvent: {}
+[42.498672] (-) TimerEvent: {}
+[42.600512] (-) TimerEvent: {}
+[42.702472] (-) TimerEvent: {}
+[42.804291] (-) TimerEvent: {}
+[42.906099] (-) TimerEvent: {}
+[43.007920] (-) TimerEvent: {}
+[43.109838] (-) TimerEvent: {}
+[43.211980] (-) TimerEvent: {}
+[43.313877] (-) TimerEvent: {}
+[43.415619] (-) TimerEvent: {}
+[43.517467] (-) TimerEvent: {}
+[43.619268] (-) TimerEvent: {}
+[43.721000] (-) TimerEvent: {}
+[43.822864] (-) TimerEvent: {}
+[43.913695] (motor_controller) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable motor_controller\x1b[0m\n'}
+[43.923172] (-) TimerEvent: {}
+[44.024954] (-) TimerEvent: {}
+[44.126169] (-) TimerEvent: {}
+[44.227402] (-) TimerEvent: {}
+[44.328638] (-) TimerEvent: {}
+[44.429874] (-) TimerEvent: {}
+[44.531121] (-) TimerEvent: {}
+[44.632541] (-) TimerEvent: {}
+[44.734468] (-) TimerEvent: {}
+[44.836358] (-) TimerEvent: {}
+[44.938303] (-) TimerEvent: {}
+[45.077020] (-) TimerEvent: {}
+[45.178992] (-) TimerEvent: {}
+[45.280939] (-) TimerEvent: {}
+[45.383010] (-) TimerEvent: {}
+[45.484901] (-) TimerEvent: {}
+[45.586736] (-) TimerEvent: {}
+[45.688665] (-) TimerEvent: {}
+[45.790496] (-) TimerEvent: {}
+[45.892429] (-) TimerEvent: {}
+[45.994099] (-) TimerEvent: {}
+[46.095874] (-) TimerEvent: {}
+[46.197523] (-) TimerEvent: {}
+[46.299159] (-) TimerEvent: {}
+[46.400843] (-) TimerEvent: {}
+[46.502330] (-) TimerEvent: {}
+[46.603966] (-) TimerEvent: {}
+[46.705641] (-) TimerEvent: {}
+[46.807452] (-) TimerEvent: {}
+[46.909215] (-) TimerEvent: {}
+[47.010864] (-) TimerEvent: {}
+[47.112608] (-) TimerEvent: {}
+[47.214293] (-) TimerEvent: {}
+[47.316096] (-) TimerEvent: {}
+[47.417776] (-) TimerEvent: {}
+[47.519536] (-) TimerEvent: {}
+[47.621231] (-) TimerEvent: {}
+[47.722970] (-) TimerEvent: {}
+[47.824619] (-) TimerEvent: {}
+[47.926340] (-) TimerEvent: {}
+[48.028255] (-) TimerEvent: {}
+[48.130082] (-) TimerEvent: {}
+[48.232037] (-) TimerEvent: {}
+[48.333803] (-) TimerEvent: {}
+[48.435477] (-) TimerEvent: {}
+[48.537128] (-) TimerEvent: {}
+[48.638792] (-) TimerEvent: {}
+[48.740482] (-) TimerEvent: {}
+[48.842350] (-) TimerEvent: {}
+[48.944327] (-) TimerEvent: {}
+[49.025040] (motor_controller) StdoutLine: {'line': b'[100%] Built target motor_controller\n'}
+[49.044639] (-) TimerEvent: {}
+[49.160632] (motor_controller) CommandEnded: {'returncode': 0}
+[49.167204] (-) TimerEvent: {}
+[49.273680] (-) TimerEvent: {}
+[49.374856] (-) TimerEvent: {}
+[49.476061] (-) TimerEvent: {}
+[49.567812] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'install'}
+[49.570640] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctrobot/dev_ws_de0/build/motor_controller', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ctrobot/dev_ws_de0/build/motor_controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('OSPL_INFOFILE', '<stdout>'), ('ROS_PACKAGE_PATH', '/home/ctrobot/igr/src:/home/ctrobot/igr_backup/src:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib:/home/ctrobot/igr/devel/lib:/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('OLDPWD', '/home/ctrobot/dev_ws_de0/src'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/root'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '192.168.0.160'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ctrobot/igr/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/ctrobot/igr/devel/share/common-lisp'), ('AMENT_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing'), ('SUDO_COMMAND', '/bin/su'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://192.168.0.108:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUDO_USER', 'ctrobot'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ctrobot/dev_ws_de0/build/motor_controller'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages:/home/ctrobot/igr/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('ROS_HOSTNAME', '192.168.0.160'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing:/home/ctrobot/igr/devel:/opt/ros/melodic')]), 'shell': False}
+[49.598263] (-) TimerEvent: {}
+[49.700002] (-) TimerEvent: {}
+[49.812697] (-) TimerEvent: {}
+[49.913969] (-) TimerEvent: {}
+[50.015239] (-) TimerEvent: {}
+[50.116536] (-) TimerEvent: {}
+[50.217774] (-) TimerEvent: {}
+[50.257676] (motor_controller) StdoutLine: {'line': b'[100%] Built target motor_controller\n'}
+[50.318058] (-) TimerEvent: {}
+[50.419318] (-) TimerEvent: {}
+[50.483789] (motor_controller) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[50.519613] (-) TimerEvent: {}
+[50.589426] (motor_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[50.592015] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/launchfile\n'}
+[50.594073] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/launchfile/motor.launch\n'}
+[50.598359] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/ctrobot/dev_ws_de0/install/motor_controller/lib/motor_controller/motor_controller\n'}
+[50.619913] (-) TimerEvent: {}
+[50.636652] (motor_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/ctrobot/dev_ws_de0/install/motor_controller/lib/motor_controller/motor_controller" to ""\n'}
+[50.639143] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller\n'}
+[50.641394] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller\n'}
+[50.643115] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh\n'}
+[50.644849] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/environment/path.sh\n'}
+[50.646953] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/local_setup.bash\n'}
+[50.648788] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/local_setup.sh\n'}
+[50.650315] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/local_setup.zsh\n'}
+[50.651667] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/ament_index/resource_index/packages/motor_controller\n'}
+[50.653192] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[50.654582] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake\n'}
+[50.655723] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake\n'}
+[50.656809] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ctrobot/dev_ws_de0/install/motor_controller/share/motor_controller/package.xml\n'}
+[50.685458] (motor_controller) CommandEnded: {'returncode': 0}
+[50.720555] (-) TimerEvent: {}
+[50.758123] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[50.773949] (-) EventReactorShutdown: {}

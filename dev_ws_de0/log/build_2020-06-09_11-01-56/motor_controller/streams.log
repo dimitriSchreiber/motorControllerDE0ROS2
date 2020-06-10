@@ -1,0 +1,53 @@
+[0.078s] Invoking command in '/home/ctrobot/dev_ws_de0/build/motor_controller': AMENT_PREFIX_PATH=/home/ctrobot/dev_ws_de0/install/reflexxes:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ctrobot/dev_ws_de0/install/reflexxes/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ctrobot/dev_ws_de0/build/motor_controller -- -j2 -l2
+[0.678s] [ 20%] [32mBuilding CXX object CMakeFiles/motor_controller.dir/include/AS5048b.cpp.o[0m
+[0.680s] [ 20%] [32mBuilding CXX object CMakeFiles/motor_controller.dir/src/motor_controller.cpp.o[0m
+[1.855s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/src/motor_controller.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[1.856s]  #include [01;31m[K"ros/ros.h"[m[K
+[1.858s]           [01;31m[K^~~~~~~~~~~[m[K
+[1.859s] compilation terminated.
+[1.890s] CMakeFiles/motor_controller.dir/build.make:62: recipe for target 'CMakeFiles/motor_controller.dir/src/motor_controller.cpp.o' failed
+[1.891s] make[2]: *** [CMakeFiles/motor_controller.dir/src/motor_controller.cpp.o] Error 1
+[1.893s] make[2]: *** Waiting for unfinished jobs....
+[4.024s] In file included from [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:10:0[m[K,
+[4.026s]                  from [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.cpp:5[m[K:
+[4.028s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:[m[K In member function ‘[01m[Kbool CTRobot::fpgaCommunication::writeByte(uint8_t)[m[K’:
+[4.030s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:48:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[4.031s]          [01;35m[K}[m[K
+[4.032s]          [01;35m[K^[m[K
+[4.034s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:[m[K In member function ‘[01m[Kbool CTRobot::fpgaCommunication::writeTwoBytes(uint16_t)[m[K’:
+[4.036s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:51:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[4.038s]          [01;35m[K}[m[K
+[4.039s]          [01;35m[K^[m[K
+[4.040s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:[m[K In member function ‘[01m[Kbool CTRobot::fpgaCommunication::writeTwoWords(uint64_t)[m[K’:
+[4.042s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/fpgaAddressComm.h:57:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[4.043s]          [01;35m[K}[m[K
+[4.044s]          [01;35m[K^[m[K
+[4.046s] In file included from [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.cpp:5:0[m[K:
+[4.047s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:[m[K In constructor ‘[01m[KCTRobot::AS5048b::AS5048b(uint8_t, int16_t)[m[K’:
+[4.048s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:71:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KCTRobot::AS5048b::LSB[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[4.050s]          uint8_t [01;35m[KLSB[m[K;
+[4.051s]                  [01;35m[K^~~[m[K
+[4.052s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:69:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble CTRobot::AS5048b::currentAngle[m[K’ [[01;35m[K-Wreorder[m[K]
+[4.054s]          double [01;35m[KcurrentAngle[m[K;
+[4.055s]                 [01;35m[K^~~~~~~~~~~~[m[K
+[4.056s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[4.058s]          [01;35m[KAS5048b[m[K(uint8_t anAddress, int16_t aOffset = 0): I2CSlaveDevice(anAddress), offset(aOffset),MSB(0),LSB(0),currentAngle(0),
+[4.059s]          [01;35m[K^~~~~~~[m[K
+[4.061s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:69:16:[m[K [01;35m[Kwarning: [m[K‘[01m[KCTRobot::AS5048b::currentAngle[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[4.062s]          double [01;35m[KcurrentAngle[m[K;
+[4.063s]                 [01;35m[K^~~~~~~~~~~~[m[K
+[4.065s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:67:18:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint16_t CTRobot::AS5048b::currentAngleR[m[K’ [[01;35m[K-Wreorder[m[K]
+[4.066s]          uint16_t [01;35m[KcurrentAngleR[m[K;
+[4.067s]                   [01;35m[K^~~~~~~~~~~~~[m[K
+[4.069s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[4.070s]          [01;35m[KAS5048b[m[K(uint8_t anAddress, int16_t aOffset = 0): I2CSlaveDevice(anAddress), offset(aOffset),MSB(0),LSB(0),currentAngle(0),
+[4.072s]          [01;35m[K^~~~~~~[m[K
+[4.073s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.cpp:[m[K In member function ‘[01m[Kuint16_t CTRobot::AS5048b::readReg16(uint8_t)[m[K’:
+[4.074s] [01m[K/home/ctrobot/dev_ws_de0/src/motor_controller/include/AS5048b.cpp:90:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KreadValueTemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[4.076s]          uint8_t [01;35m[KreadValueTemp[m[K[2];
+[4.077s]                  [01;35m[K^~~~~~~~~~~~~[m[K
+[5.339s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/motor_controller.dir/all' failed
+[5.349s] make[1]: *** [CMakeFiles/motor_controller.dir/all] Error 2
+[5.350s] Makefile:140: recipe for target 'all' failed
+[5.351s] make: *** [all] Error 2
+[5.358s] Invoked command in '/home/ctrobot/dev_ws_de0/build/motor_controller' returned '2': AMENT_PREFIX_PATH=/home/ctrobot/dev_ws_de0/install/reflexxes:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctrobot/dev_ws_de0/install/reflexxes:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ctrobot/dev_ws_de0/install/reflexxes/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ctrobot/dev_ws_de0/build/motor_controller -- -j2 -l2
